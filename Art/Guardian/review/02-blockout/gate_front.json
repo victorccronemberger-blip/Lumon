@@ -1,0 +1,21 @@
+{
+  "view": "front",
+  "az": 0.0,
+  "matte": "Art/Guardian/ref/front-matte.png",
+  "m_per_px": 0.002756508422664625,
+  "iou": 0.9118,
+  "ref_only_pct": 4.88,
+  "render_only_pct": 4.32,
+  "band_width_diff": [
+    0.02,
+    -0.0077,
+    0.0015,
+    -0.0154,
+    -0.0046,
+    0.0061,
+    0.0138,
+    -0.0077,
+    0.0015,
+    0.0031
+  ]
+}

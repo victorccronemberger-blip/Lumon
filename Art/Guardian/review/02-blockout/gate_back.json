@@ -1,0 +1,21 @@
+{
+  "view": "back",
+  "az": 180.0,
+  "matte": "Art/Guardian/ref/back-matte.png",
+  "m_per_px": 0.002756508422664625,
+  "iou": 0.8727,
+  "ref_only_pct": 7.06,
+  "render_only_pct": 6.49,
+  "band_width_diff": [
+    0.0184,
+    0.0046,
+    0.0031,
+    -0.0138,
+    -0.0031,
+    0.0077,
+    0.0154,
+    -0.0077,
+    0.0031,
+    0.0046
+  ]
+}

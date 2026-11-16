@@ -1,0 +1,34 @@
+{
+  "North": {
+    "heightPixels": 166,
+    "bootline": 509
+  },
+  "NorthEast": {
+    "heightPixels": 165,
+    "bootline": 508
+  },
+  "East": {
+    "heightPixels": 165,
+    "bootline": 508
+  },
+  "SouthEast": {
+    "heightPixels": 166,
+    "bootline": 508
+  },
+  "South": {
+    "heightPixels": 165,
+    "bootline": 508
+  },
+  "SouthWest": {
+    "heightPixels": 165,
+    "bootline": 508
+  },
+  "West": {
+    "heightPixels": 165,
+    "bootline": 508
+  },
+  "NorthWest": {
+    "heightPixels": 165,
+    "bootline": 508
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "resolution": [
+      1280,
+      720
+    ],
+    "spriteBounds": [
+      557,
+      343,
+      611,
+      508
+    ],
+    "spriteHeightPixels": 165
+  },
+  {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "spriteBounds": [
+      836,
+      514,
+      916,
+      762
+    ],
+    "spriteHeightPixels": 248
+  }
+]

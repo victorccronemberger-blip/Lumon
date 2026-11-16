@@ -1,0 +1,196 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="hubRoot" class="hub-root" picking-mode="Ignore">
+        <ui:VisualElement name="hubCanvas" class="hub-canvas" picking-mode="Ignore">
+            <ui:VisualElement name="plazaHud" class="plaza-hud" picking-mode="Ignore">
+                <ui:Label name="location" class="hud-ink hub-title hub-serif" picking-mode="Ignore" />
+                <ui:Label name="subtitle" class="hud-ink hub-subtitle" picking-mode="Ignore" />
+                <ui:Label name="hubCoins" class="hud-ink hub-coins hub-serif" picking-mode="Ignore" />
+                <ui:Button name="openSettings" class="hub-hotspot hub-settings-hotspot" />
+                <ui:Label name="teamTitle" class="hud-ink hub-team-title hub-serif" picking-mode="Ignore" />
+                <ui:Label name="rosterFire" class="hud-ink hub-team-roster hub-team-fire hub-serif" picking-mode="Ignore" />
+                <ui:Label name="rosterWater" class="hud-ink hub-team-roster hub-team-water hub-serif" picking-mode="Ignore" />
+                <ui:Label name="rosterLeaf" class="hud-ink hub-team-roster hub-team-leaf hub-serif" picking-mode="Ignore" />
+                <ui:Button name="openTeam" class="hub-hotspot hub-team-hotspot hub-serif" />
+                <ui:Label name="bookTitle" class="hud-ink hub-book-title hub-serif" picking-mode="Ignore" />
+                <ui:Label name="bookSubtitle" class="hud-ink hub-book-subtitle" picking-mode="Ignore" />
+                <ui:Button name="openAtlas" class="hub-hotspot hub-book-hotspot hub-serif" />
+                <ui:Label name="deskLabel" class="hud-ink hub-desk-label hub-serif" picking-mode="Ignore" />
+                <ui:Label name="deskAction" class="hud-ink hub-desk-action hub-serif" picking-mode="Ignore" />
+                <ui:Label name="boothLabel" class="hud-ink hub-booth-label hub-serif" picking-mode="Ignore" />
+                <ui:Label name="controls" class="hud-ink hub-controls" picking-mode="Ignore" />
+                <ui:Label name="toast" class="hud-ink hub-status is-hidden" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement name="modalHost" class="hub-modal-host is-hidden">
+                <ui:VisualElement name="modalLighting" class="hub-modal-light" picking-mode="Ignore" />
+                <ui:VisualElement name="teamPanel" class="hub-modal hub-team-panel is-hidden">
+                    <ui:VisualElement class="hub-paper-surface hub-workshop-frame" picking-mode="Ignore" />
+                    <ui:VisualElement class="hub-workshop-heading">
+                        <ui:Label name="teamHeading" class="hub-modal-title hub-serif" />
+                        <ui:VisualElement class="hub-workshop-wallet" picking-mode="Ignore">
+                            <ui:VisualElement class="hub-workshop-coin" picking-mode="Ignore" />
+                            <ui:Label name="workshopBalance" class="hub-workshop-balance" picking-mode="Ignore" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="hub-workshop-tabs">
+                        <ui:Button name="tabTeam" class="hub-workshop-tab hub-serif">
+                            <ui:VisualElement class="hub-workshop-tab-icon hub-workshop-icon-team" picking-mode="Ignore" />
+                        </ui:Button>
+                        <ui:Button name="tabFusion" class="hub-workshop-tab hub-serif">
+                            <ui:VisualElement class="hub-workshop-tab-icon hub-workshop-icon-fusion" picking-mode="Ignore" />
+                        </ui:Button>
+                        <ui:Button name="tabImprove" class="hub-workshop-tab hub-serif">
+                            <ui:VisualElement class="hub-workshop-tab-icon hub-workshop-icon-improve" picking-mode="Ignore" />
+                        </ui:Button>
+                        <ui:Button name="tabEggs" class="hub-workshop-tab hub-serif">
+                            <ui:VisualElement class="hub-workshop-tab-icon hub-workshop-icon-eggs" picking-mode="Ignore" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="teamRosterPane">
+                        <ui:Label name="teamIntro" class="hub-modal-text" />
+                        <ui:VisualElement class="hub-team-line">
+                            <ui:Button name="slotFire" class="hub-team-card hub-element-card-fire">
+                                <ui:VisualElement class="hub-lumon-icon hub-lumon-fire" picking-mode="Ignore" />
+                                <ui:Label name="slotFireName" class="hub-lumon-name hub-serif" picking-mode="Ignore" />
+                                <ui:Label name="slotFireState" class="hub-lumon-state" picking-mode="Ignore" />
+                            </ui:Button>
+                            <ui:Button name="slotWater" class="hub-team-card hub-element-card-water">
+                                <ui:VisualElement class="hub-lumon-icon hub-lumon-water" picking-mode="Ignore" />
+                                <ui:Label name="slotWaterName" class="hub-lumon-name hub-serif" picking-mode="Ignore" />
+                                <ui:Label name="slotWaterState" class="hub-lumon-state" picking-mode="Ignore" />
+                            </ui:Button>
+                            <ui:Button name="slotLeaf" class="hub-team-card hub-element-card-leaf">
+                                <ui:VisualElement class="hub-lumon-icon hub-lumon-leaf" picking-mode="Ignore" />
+                                <ui:Label name="slotLeafName" class="hub-lumon-name hub-serif" picking-mode="Ignore" />
+                                <ui:Label name="slotLeafState" class="hub-lumon-state" picking-mode="Ignore" />
+                            </ui:Button>
+                        </ui:VisualElement>
+                        <ui:ScrollView name="extraRoster" class="hub-extra-roster is-hidden" mode="Vertical"
+                            horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" />
+                        <ui:Label name="teamState" class="hub-modal-state" />
+                        <ui:VisualElement class="hub-actions">
+                            <ui:Button name="teamBack" class="hub-action hub-serif" />
+                            <ui:Button name="teamSave" class="hub-action hub-primary hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="fusionPane" class="hub-workshop-pane is-hidden">
+                        <ui:Label name="fusionIntro" class="hub-workshop-intro" />
+                        <ui:VisualElement class="hub-workshop-columns">
+                            <ui:VisualElement class="hub-workshop-column">
+                                <ui:Label name="fusionTargetLabel" class="hub-workshop-lane-title hub-serif" />
+                                <ui:ScrollView name="fusionTargets" class="hub-workshop-list" mode="Vertical"
+                                    horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="hub-workshop-column">
+                                <ui:Label name="fusionMaterialLabel" class="hub-workshop-lane-title hub-serif" />
+                                <ui:ScrollView name="fusionMaterials" class="hub-workshop-list" mode="Vertical"
+                                    horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:Label name="fusionState" class="hub-workshop-state" />
+                        <ui:VisualElement class="hub-actions">
+                            <ui:Button name="fusionBack" class="hub-action hub-serif" />
+                            <ui:Button name="fusionAction" class="hub-action hub-primary hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="improvePane" class="hub-workshop-pane is-hidden">
+                        <ui:Label name="improveIntro" class="hub-workshop-intro" />
+                        <ui:ScrollView name="improveRoster" class="hub-workshop-list hub-workshop-improve-list" mode="Vertical"
+                            horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" />
+                        <ui:Label name="improveState" class="hub-workshop-state" />
+                        <ui:VisualElement class="hub-actions">
+                            <ui:Button name="improveBack" class="hub-action hub-serif" />
+                            <ui:Button name="improveAction" class="hub-action hub-primary hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="eggPane" class="hub-workshop-pane is-hidden">
+                        <ui:Label name="eggIntro" class="hub-workshop-intro" />
+                        <ui:VisualElement class="hub-workshop-columns">
+                            <ui:VisualElement class="hub-workshop-column">
+                                <ui:Label name="shopLabel" class="hub-workshop-lane-title hub-serif" />
+                                <ui:Button name="buyFire" class="hub-workshop-row hub-shop-egg">
+                                    <ui:VisualElement class="hub-egg-icon hub-egg-fire" picking-mode="Ignore" />
+                                </ui:Button>
+                                <ui:Button name="buyWater" class="hub-workshop-row hub-shop-egg">
+                                    <ui:VisualElement class="hub-egg-icon hub-egg-water" picking-mode="Ignore" />
+                                </ui:Button>
+                                <ui:Button name="buyLeaf" class="hub-workshop-row hub-shop-egg">
+                                    <ui:VisualElement class="hub-egg-icon hub-egg-leaf" picking-mode="Ignore" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="hub-workshop-column">
+                                <ui:Label name="incubatorLabel" class="hub-workshop-lane-title hub-serif" />
+                                <ui:ScrollView name="eggList" class="hub-workshop-list" mode="Vertical"
+                                    horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:Label name="eggState" class="hub-workshop-state" />
+                        <ui:VisualElement class="hub-actions">
+                            <ui:Button name="eggBack" class="hub-action hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="hatchReveal" class="hub-hatch-reveal is-hidden">
+                        <ui:VisualElement class="hub-hatch-card">
+                            <ui:VisualElement class="hub-paper-surface hub-workshop-reveal-frame" picking-mode="Ignore" />
+                            <ui:VisualElement class="hub-hatch-medallion">
+                                <ui:VisualElement name="hatchShellBottom" class="hub-hatch-shell" picking-mode="Ignore" />
+                                <ui:VisualElement name="hatchShellTop" class="hub-hatch-shell" picking-mode="Ignore" />
+                                <ui:VisualElement name="hatchPortrait" class="hub-hatch-portrait" picking-mode="Ignore" />
+                            </ui:VisualElement>
+                            <ui:Label name="hatchTitle" class="hub-serif hub-hatch-title" />
+                            <ui:Label name="hatchText" class="hub-hatch-text" />
+                            <ui:Button name="hatchContinue" class="hub-action hub-primary hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="atlasPanel" class="hub-atlas is-hidden">
+                    <ui:VisualElement class="hub-atlas-shadow" picking-mode="Ignore" />
+                    <ui:VisualElement class="hub-atlas-surface" picking-mode="Ignore" />
+                    <ui:VisualElement class="hub-atlas-page">
+                        <ui:Label name="atlasHeading" class="hub-modal-title hub-serif" />
+                        <ui:VisualElement class="hub-engraved-rule" picking-mode="Ignore" />
+                        <ui:Label name="atlasIntro" class="hub-modal-text" />
+                        <ui:Label name="routeState" class="hub-modal-state" />
+                        <ui:VisualElement class="hub-actions">
+                            <ui:Button name="atlasBack" class="hub-action hub-serif" />
+                            <ui:Button name="planRoute" class="hub-action hub-primary hub-serif" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="settingsPanel" class="hub-modal hub-settings-panel is-hidden">
+                    <ui:VisualElement class="hub-paper-shadow" picking-mode="Ignore" />
+                    <ui:VisualElement class="hub-paper-surface" picking-mode="Ignore" />
+                    <ui:Label name="settingsHeading" class="hub-modal-title hub-serif" />
+                    <ui:VisualElement class="hub-engraved-rule" picking-mode="Ignore" />
+                    <ui:VisualElement class="hub-options">
+                        <ui:VisualElement class="hub-options-row">
+                            <ui:Label name="languageLabel" class="hub-setting-name" />
+                            <ui:VisualElement class="hub-options-input" picking-mode="Ignore">
+                                <ui:Button name="langPt" text="PT-BR" class="hub-choice" />
+                                <ui:Button name="langEn" text="EN" class="hub-choice" />
+                                <ui:Button name="langEs" text="ES" class="hub-choice" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="hub-options-row">
+                            <ui:Label name="volumeLabel" class="hub-setting-name" />
+                            <ui:VisualElement class="hub-options-input" picking-mode="Ignore">
+                                <ui:Button name="volumeDown" text="−" class="hub-choice" />
+                                <ui:Label name="volumeValue" class="hub-volume" />
+                                <ui:Button name="volumeUp" text="+" class="hub-choice" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="hub-options-row">
+                            <ui:Label name="motionLabel" class="hub-setting-name" />
+                            <ui:VisualElement class="hub-options-input" picking-mode="Ignore">
+                                <ui:Button name="motionToggle" class="hub-choice hub-motion-choice" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="hub-actions">
+                        <ui:Button name="settingsBack" class="hub-action hub-serif" />
+                        <ui:Button name="settingsSave" class="hub-action hub-primary hub-serif" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

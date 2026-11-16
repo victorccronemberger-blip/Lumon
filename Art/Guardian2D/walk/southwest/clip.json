@@ -1,0 +1,301 @@
+{
+  "direction": "SouthWest",
+  "referenceHeightPx": 442,
+  "cadenceMs": 146.67,
+  "suggestedDistanceMeters": 1.3709,
+  "frames": [
+    {
+      "file": "frame-00.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.046537,
+      "supportFoot": "left"
+    },
+    {
+      "file": "frame-01.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.03355,
+      "supportFoot": "left"
+    },
+    {
+      "file": "frame-02.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.024892,
+      "supportFoot": "left"
+    },
+    {
+      "file": "frame-03.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.055195,
+      "supportFoot": "left"
+    },
+    {
+      "file": "frame-04.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.029221,
+      "supportFoot": "right"
+    },
+    {
+      "file": "frame-05.png",
+      "pivotX": 0.52232,
+      "pivotY": 0.022727,
+      "supportFoot": "right"
+    }
+  ],
+  "status": "proof-not-accepted",
+  "sourceFrames": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "source": {
+    "file": "source/guardian-apprentice-walk-southwest.gif",
+    "sha256": "a2833e8a572c9ab975f7b06d629620bce6b26a02d52b6c7795e1baf48b5d82b4",
+    "frameMs": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "strayPixelsRemoved": [
+      0,
+      3,
+      3,
+      3,
+      4,
+      1,
+      0,
+      3
+    ]
+  },
+  "conventions": {
+    "pivot": "normalized, origin bottom-left; pivotX = trunk anchor shared by all frames; pivotY = lowest row of the support sole in that frame",
+    "supportFoot": "anatomical side; left = near leg for SouthWest. Hypothesis until engine capture",
+    "cadenceMs": "source cycle (8 x 110 ms) spread over the retained poses"
+  },
+  "measurements": {
+    "sourceToScreen720": 0.3733,
+    "contactFrames": [
+      0,
+      3
+    ],
+    "trackDxDyRmsBySourceTransition": {
+      "0->1": [
+        29,
+        5,
+        42.1
+      ],
+      "1->2": [
+        17,
+        -1,
+        52.6
+      ],
+      "2->3": [
+        16,
+        -2,
+        35.9
+      ],
+      "3->4": [
+        15,
+        1,
+        36.0
+      ],
+      "4->5": [
+        39,
+        -23,
+        70.5
+      ],
+      "5->6": [
+        27,
+        15,
+        42.3
+      ],
+      "6->7": [
+        47,
+        -3,
+        57.5
+      ],
+      "7->0": [
+        38,
+        -23,
+        68.6
+      ]
+    },
+    "stepSourcePx": {
+      "left": 116,
+      "right": 112
+    },
+    "contactFootSeparationSourcePx": [
+      94.0,
+      128.0
+    ],
+    "candidates": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          0.19,
+          -4.29,
+          -4.67,
+          -5.04,
+          3.92,
+          -0.56,
+          6.91,
+          3.55
+        ],
+        "maxSlidePx720": 6.91,
+        "maxDriftPx720": 13.81
+      },
+      {
+        "order": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          -7.84,
+          11.95,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 11.95,
+        "maxDriftPx720": 11.2
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          -1.87,
+          5.97,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 5.97,
+        "maxDriftPx720": 5.23
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          3.73,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 4.11,
+        "maxDriftPx720": 4.11
+      },
+      {
+        "order": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          2.99,
+          -8.21,
+          5.97,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 8.21,
+        "maxDriftPx720": 5.23
+      },
+      {
+        "order": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          2.99,
+          -2.61,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 4.11,
+        "maxDriftPx720": 4.11
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          8.96,
+          -8.59,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 8.96,
+        "maxDriftPx720": 8.96
+      }
+    ],
+    "broochSwaySourcePx": 2.64,
+    "headToBroochRatioWalkOverIdle": 1.0592,
+    "referenceHeightMatchingIdleHeadPx": 468.2
+  },
+  "predictions": {
+    "engineSpeedMetersPerSecond": 2.8,
+    "engineFrameMs": 81.6,
+    "sourceImpliedSpeedMetersPerSecond": 1.558,
+    "screenPxPerMeter720": [
+      -62.087,
+      31.044
+    ],
+    "plantedFootHorizontalDriftPx720": 5.23,
+    "plantedFootVerticalSlidePerStepPx720": 21.28,
+    "stanceTrackDySourcePx": -5,
+    "expectedStanceTrackDySourcePx": -47.5
+  }
+}

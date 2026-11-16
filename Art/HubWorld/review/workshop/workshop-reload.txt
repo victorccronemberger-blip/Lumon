@@ -1,0 +1,1 @@
+PASS: workshop purchase, incubation, hatch, party, fusion, upgrade and persistence.

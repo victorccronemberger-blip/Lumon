@@ -1,0 +1,1 @@
+PASS: localized plaza, atlas, settings and four workshop tabs fit the UI containers.

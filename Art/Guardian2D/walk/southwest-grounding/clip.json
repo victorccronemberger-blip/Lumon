@@ -1,0 +1,576 @@
+{
+  "direction": "SouthWest",
+  "referenceHeightPx": 442,
+  "cadenceMs": 146.67,
+  "suggestedDistanceMeters": 1.3709,
+  "frames": [
+    {
+      "file": "frame-00.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.35473,
+      "contactY": 0.071293
+    },
+    {
+      "file": "frame-01.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.483108,
+      "contactY": 0.107414
+    },
+    {
+      "file": "frame-02.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.611486,
+      "contactY": 0.143536
+    },
+    {
+      "file": "frame-03.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.327703,
+      "contactY": 0.071293
+    },
+    {
+      "file": "frame-04.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.456081,
+      "contactY": 0.107414
+    },
+    {
+      "file": "frame-05.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.584459,
+      "contactY": 0.143536
+    }
+  ],
+  "status": "proof-not-accepted",
+  "sourceFrames": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "source": {
+    "file": "source/guardian-apprentice-walk-southwest.gif",
+    "sha256": "a2833e8a572c9ab975f7b06d629620bce6b26a02d52b6c7795e1baf48b5d82b4",
+    "frameMs": [
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110,
+      110
+    ],
+    "strayPixelsRemoved": [
+      0,
+      3,
+      3,
+      3,
+      4,
+      1,
+      0,
+      3
+    ]
+  },
+  "conventions": {
+    "pivot": "normalized, origin bottom-left, identical for every frame; pivotX = v1 trunk anchor; pivotY = ground row under the root at mid-stance (k = 1 of each 3-frame stance)",
+    "supportFoot": "foot planted by trajectory, 3 + 3 (left = near leg); frame-03 is right (v1 said left)",
+    "cadenceMs": "source cycle (8 x 110 ms) spread over the retained poses",
+    "contact": "contactX/contactY normalized, origin bottom-left of this canvas; support-boot material point = heel corner + 0.0*(toe tip - heel corner), re-measured on the output alpha"
+  },
+  "measurements": {
+    "sourceToScreen720": 0.3733,
+    "contactFrames": [
+      0,
+      3
+    ],
+    "trackDxDyRmsBySourceTransition": {
+      "0->1": [
+        29,
+        5,
+        42.1
+      ],
+      "1->2": [
+        17,
+        -1,
+        52.6
+      ],
+      "2->3": [
+        16,
+        -2,
+        35.9
+      ],
+      "3->4": [
+        15,
+        1,
+        36.0
+      ],
+      "4->5": [
+        39,
+        -23,
+        70.5
+      ],
+      "5->6": [
+        27,
+        15,
+        42.3
+      ],
+      "6->7": [
+        47,
+        -3,
+        57.5
+      ],
+      "7->0": [
+        38,
+        -23,
+        68.6
+      ]
+    },
+    "stepSourcePx": {
+      "left": 116,
+      "right": 112
+    },
+    "contactFootSeparationSourcePx": [
+      94.0,
+      128.0
+    ],
+    "candidates": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          0.19,
+          -4.29,
+          -4.67,
+          -5.04,
+          3.92,
+          -0.56,
+          6.91,
+          3.55
+        ],
+        "maxSlidePx720": 6.91,
+        "maxDriftPx720": 13.81
+      },
+      {
+        "order": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          -7.84,
+          11.95,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 11.95,
+        "maxDriftPx720": 11.2
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          -1.87,
+          5.97,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 5.97,
+        "maxDriftPx720": 5.23
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          -3.36,
+          3.73,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 4.11,
+        "maxDriftPx720": 4.11
+      },
+      {
+        "order": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          2.99,
+          -8.21,
+          5.97,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 8.21,
+        "maxDriftPx720": 5.23
+      },
+      {
+        "order": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          2.99,
+          -2.61,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 4.11,
+        "maxDriftPx720": 4.11
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "slidePx720": [
+          8.96,
+          -8.59,
+          0.37,
+          -4.11,
+          3.36,
+          0.0
+        ],
+        "maxSlidePx720": 8.96,
+        "maxDriftPx720": 8.96
+      }
+    ],
+    "broochSwaySourcePx": 2.64,
+    "headToBroochRatioWalkOverIdle": 1.0592,
+    "referenceHeightMatchingIdleHeadPx": 468.2,
+    "grounding": {
+      "v1Clip": "walk/southwest/clip.json",
+      "v1FrameSha256": {
+        "frame-00.png": "0eae6b18336ff5240889186763668804d868e59ecbae537dfe7891143a9626c2",
+        "frame-01.png": "9828f4fe1d4a15ddc61e1ca6e076cd494446310cb568226e169a1c206d477167",
+        "frame-02.png": "a6fcb2cd5e7e6c9e54ba7a604a08854291e54e5fff71c6d64169b1b22ef558cb",
+        "frame-03.png": "3227e0e1d3d0651e5c50eae9aa7aeb85d277ad64d8e27c03571edbf46cdee0d6",
+        "frame-04.png": "5629e80f5f9753b422e90bc9f6a8feeaa06f0c36ae494e43188e9ef6a303023e",
+        "frame-05.png": "f58e65839d85c4433df20e18c01ffed1d7b2c7ec76c4eb2b88ba17c51f79784b"
+      },
+      "script": "ground_walk_southwest.py",
+      "canvasPx": [
+        296,
+        526
+      ],
+      "padFromV1Px": 32,
+      "hipRowV1": 238,
+      "plantedStepTargetPx": [
+        38.01,
+        -18.99
+      ],
+      "plantedStepTargetScreen720": [
+        14.19,
+        -7.09
+      ],
+      "appliedBootOffsetPx": {
+        "00": [
+          -2.51,
+          15.99
+        ],
+        "01": [
+          -0.5,
+          -8.0
+        ],
+        "02": [
+          2.51,
+          -21.99
+        ],
+        "03": [
+          -0.52,
+          22.99
+        ],
+        "04": [
+          5.49,
+          -10.0
+        ],
+        "05": [
+          -5.49,
+          -22.99
+        ]
+      },
+      "v1ContactPx": {
+        "00": [
+          76.0,
+          440.5
+        ],
+        "01": [
+          112.0,
+          445.5
+        ],
+        "02": [
+          147.0,
+          440.5
+        ],
+        "03": [
+          66.0,
+          433.5
+        ],
+        "04": [
+          98.0,
+          447.5
+        ],
+        "05": [
+          147.0,
+          441.5
+        ]
+      },
+      "pairs": [
+        {
+          "pair": "00->01",
+          "foot": "left",
+          "kind": "planted",
+          "contactStepPx": [
+            38.0,
+            -19.0
+          ],
+          "contactStepScreen720": [
+            14.19,
+            -7.09
+          ],
+          "residualScreen720": [
+            -0.0,
+            -0.0
+          ],
+          "bootTemplateDxDyRms": [
+            46,
+            -70,
+            79.1
+          ]
+        },
+        {
+          "pair": "01->02",
+          "foot": "left",
+          "kind": "planted",
+          "contactStepPx": [
+            38.0,
+            -19.0
+          ],
+          "contactStepScreen720": [
+            14.19,
+            -7.09
+          ],
+          "residualScreen720": [
+            -0.0,
+            -0.0
+          ],
+          "bootTemplateDxDyRms": [
+            33,
+            -16,
+            68.0
+          ]
+        },
+        {
+          "pair": "02->03",
+          "foot": "left",
+          "kind": "handoff (support changes, not planted)",
+          "contactStepPx": null,
+          "contactStepScreen720": null,
+          "residualScreen720": null,
+          "bootTemplateDxDyRms": null,
+          "leavingToeStepPx": [
+            60.09,
+            10.0
+          ],
+          "leavingToeResidualScreen720": [
+            8.24,
+            10.82
+          ]
+        },
+        {
+          "pair": "03->04",
+          "foot": "right",
+          "kind": "planted",
+          "contactStepPx": [
+            38.0,
+            -19.0
+          ],
+          "contactStepScreen720": [
+            14.19,
+            -7.09
+          ],
+          "residualScreen720": [
+            -0.0,
+            -0.0
+          ],
+          "bootTemplateDxDyRms": [
+            29,
+            -15,
+            64.5
+          ]
+        },
+        {
+          "pair": "04->05",
+          "foot": "right",
+          "kind": "planted",
+          "contactStepPx": [
+            38.0,
+            -19.0
+          ],
+          "contactStepScreen720": [
+            14.19,
+            -7.09
+          ],
+          "residualScreen720": [
+            -0.0,
+            -0.0
+          ],
+          "bootTemplateDxDyRms": [
+            28,
+            -12,
+            70.8
+          ]
+        },
+        {
+          "pair": "05->00",
+          "foot": "right",
+          "kind": "handoff (support changes, not planted)",
+          "contactStepPx": null,
+          "contactStepScreen720": null,
+          "residualScreen720": null,
+          "bootTemplateDxDyRms": null,
+          "leavingToeStepPx": [
+            51.19,
+            7.0
+          ],
+          "leavingToeResidualScreen720": [
+            4.92,
+            9.7
+          ]
+        }
+      ],
+      "pixels": [
+        {
+          "uncoveredPx": 846,
+          "inpaintedPx": 0,
+          "seamBandRemovedPx": 0,
+          "seamCrackExtendedPx": 0,
+          "otherPaintOverlappedByMovedLegPx": 59,
+          "otherPaintOverlappedAboveCuffPx": 59
+        },
+        {
+          "uncoveredPx": 851,
+          "inpaintedPx": 0,
+          "seamBandRemovedPx": 79,
+          "seamCrackExtendedPx": 79,
+          "otherPaintOverlappedByMovedLegPx": 4,
+          "otherPaintOverlappedAboveCuffPx": 4
+        },
+        {
+          "uncoveredPx": 2446,
+          "inpaintedPx": 0,
+          "seamBandRemovedPx": 57,
+          "seamCrackExtendedPx": 57,
+          "otherPaintOverlappedByMovedLegPx": 58,
+          "otherPaintOverlappedAboveCuffPx": 58
+        },
+        {
+          "uncoveredPx": 1274,
+          "inpaintedPx": 0,
+          "seamBandRemovedPx": 0,
+          "seamCrackExtendedPx": 0,
+          "otherPaintOverlappedByMovedLegPx": 12,
+          "otherPaintOverlappedAboveCuffPx": 12
+        },
+        {
+          "uncoveredPx": 1222,
+          "inpaintedPx": 0,
+          "seamBandRemovedPx": 0,
+          "seamCrackExtendedPx": 0,
+          "otherPaintOverlappedByMovedLegPx": 176,
+          "otherPaintOverlappedAboveCuffPx": 158
+        },
+        {
+          "uncoveredPx": 2404,
+          "inpaintedPx": 2,
+          "seamBandRemovedPx": 166,
+          "seamCrackExtendedPx": 166,
+          "otherPaintOverlappedByMovedLegPx": 25,
+          "otherPaintOverlappedAboveCuffPx": 25
+        }
+      ]
+    }
+  },
+  "predictions": {
+    "engineSpeedMetersPerSecond": 2.8,
+    "engineFrameMs": 81.6,
+    "sourceImpliedSpeedMetersPerSecond": 1.558,
+    "screenPxPerMeter720": [
+      -62.087,
+      31.044
+    ],
+    "plantedFootHorizontalDriftPx720": 0.0,
+    "plantedFootVerticalSlidePerStepPx720": 0.0,
+    "stanceTrackDySourcePx": -5,
+    "expectedStanceTrackDySourcePx": -47.5,
+    "handoffLeavingToeResidualPx720Estimate": {
+      "02->03": [
+        8.24,
+        10.82
+      ],
+      "05->00": [
+        4.92,
+        9.7
+      ]
+    }
+  }
+}

@@ -1,0 +1,801 @@
+:root {
+    --ink: #402232;
+    --ink-quiet: #64424a;
+    --paper: #f6dfb9;
+    --paper-light: #ffe9c7;
+    --edge: #a78269;
+    --plum: #683549;
+    --red: #8c3328;
+    --red-dark: #56231e;
+    --focus: #e2ae59;
+    --light-text: #fff2dc;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+}
+.hub-root, .hub-canvas, .plaza-hud {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.hub-root { color: var(--ink); -unity-font: url("Fonts/AtkinsonHyperlegibleNext-Text.ttf"); }
+.hub-serif { -unity-font: url("Fonts/AuroraInscrita.ttf"); }
+.hud-ink {
+    position: absolute;
+    color: var(--ink);
+    margin: 0;
+    white-space: nowrap;
+    -unity-text-align: middle-center;
+}
+.hub-title {
+    padding: 0 3px;
+    -unity-text-align: middle-left;
+    left: 7.95%;
+    top: 3.2%;
+    width: 17.15%;
+    height: 4.1%;
+    font-size: 19px;
+}
+.is-spanish .hub-title { font-size: 17.7px; }
+.hub-subtitle {
+    width: 16%;
+    height: 2.4%;
+    -unity-text-align: middle-left;
+    left: 8.22%;
+    top: 7.48%;
+    font-size: 14px;
+}
+.hub-coins {
+    left: 89.1%;
+    top: 4.15%;
+    width: 4.05%;
+    height: 4.6%;
+    padding: 1px 4px 3px;
+    font-size: 22px;
+}
+.hub-hotspot {
+    position: absolute;
+    margin: 0;
+    padding: 2px var(--space-3) 5px;
+    color: var(--light-text);
+    font-size: 23px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-align: middle-center;
+    text-shadow: 0 1px 2px rgba(48, 19, 28, 0.7);
+}
+.hub-hotspot:hover { background-color: rgba(255, 214, 154, 0.19); }
+.hub-hotspot:active { background-color: rgba(70, 29, 34, 0.29); }
+.hub-hotspot:focus { border-color: var(--focus); }
+.hub-settings-hotspot {
+    left: 95.2%;
+    top: 3.1%;
+    width: 3.15%;
+    height: 5.45%;
+    font-size: 0;
+    padding: 0;
+}
+.hub-team-title {
+    left: 4.05%;
+    top: 75.65%;
+    width: 14.1%;
+    height: 4.9%;
+    padding: 0 6px 3px;
+    rotate: -2deg;
+    font-size: 20px;
+}
+.hub-team-roster {
+    top: 81.6%;
+    height: 4.6%;
+    padding: 1px 3px 3px;
+    font-size: 17px;
+}
+.hub-team-fire { left: 5.4%; width: 6.8%; }
+.hub-team-water { left: 12.5%; width: 7.9%; }
+.hub-team-leaf { left: 20.7%; width: 7%; }
+.hub-team-roster.is-resting { color: #7d5851; }
+.hub-team-hotspot {
+    left: 9.88%;
+    top: 87.52%;
+    width: 12.55%;
+    height: 4.92%;
+    padding: 1px 8px 3px;
+    font-size: 17px;
+}
+.hub-book-title {
+    left: 79.45%;
+    top: 67.9%;
+    width: 15.45%;
+    height: 11.9%;
+    padding: 2px 5px 4px;
+    white-space: normal;
+    rotate: -4deg;
+    -unity-text-align: middle-left;
+    font-size: 26px;
+}
+.hub-book-subtitle {
+    left: 79.56%;
+    top: 81.9%;
+    width: 17.35%;
+    height: 3.75%;
+    padding: 0 6px 3px;
+    font-size: 15px;
+    color: #503045;
+    rotate: -3.1deg;
+    -unity-font-style: italic;
+    -unity-text-align: middle-center;
+}
+.hub-book-hotspot {
+    left: 74.4%;
+    top: 87.30%;
+    width: 21.35%;
+    height: 6.78%;
+    rotate: -2.6deg;
+    padding: 3px 10px 5px;
+    font-size: 25px;
+    color: #fff3d8;
+    -unity-font: url("Fonts/SourceSerif4-Semibold.otf");
+}
+.hub-desk-label {
+    left: 71.85%;
+    top: 38.25%;
+    width: 10.35%;
+    height: 4.6%;
+    padding: 0 7px 3px;
+    rotate: 7deg;
+    font-size: 17px;
+}
+.is-spanish .hub-desk-label { font-size: 21px; }
+.hub-desk-action {
+    left: 71.32%;
+    top: 55.2%;
+    width: 10.25%;
+    height: 3.8%;
+    padding: 0 6px 2px;
+    font-size: 14px;
+}
+.hub-booth-label {
+    left: 14.05%;
+    top: 46.9%;
+    width: 6.3%;
+    height: 5.2%;
+    padding: 0 4px 3px;
+    font-size: 22px;
+    rotate: -7deg;
+}
+.hub-controls {
+    left: 37.75%;
+    top: 92.8%;
+    width: 17.75%;
+    height: 3.2%;
+    padding: 0 7px 1px;
+    font-size: 15px;
+}
+.hub-status {
+    left: 36%;
+    right: 36%;
+    bottom: 10%;
+    color: var(--light-text);
+    background-color: var(--ink);
+    white-space: normal;
+    border-radius: 5px;
+    padding: var(--space-2) var(--space-4);
+    font-size: 17px;
+}
+.hub-modal-host {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 20, 38, 0.52);
+}
+.hub-modal {
+    width: 620px;
+    min-height: 418px;
+    padding: 43px 56px 44px;
+}
+.hub-team-panel { min-height: 482px; }
+.hub-paper-shadow, .hub-atlas-shadow {
+    position: absolute;
+    left: -34px;
+    top: -20px;
+    right: -34px;
+    bottom: -48px;
+    background-size: 100% 100%;
+}
+.hub-paper-shadow { background-image: url("Art/paper-shadow.png"); }
+.hub-atlas-shadow { background-image: url("Art/atlas-shadow.png"); }
+.hub-paper-surface, .hub-atlas-surface {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-size: 100% 100%;
+}
+.hub-paper-surface { background-image: url("Art/paper.png"); }
+.hub-atlas-surface { background-image: url("Art/atlas-folio.png"); }
+.hub-modal-title {
+    margin: 0 0 6px;
+    padding: 1px 0 4px;
+    color: var(--ink);
+    font-size: 36px;
+}
+.hub-modal-text {
+    margin: 0 0 var(--space-4);
+    padding: 0 0 2px;
+    color: var(--ink-quiet);
+    white-space: normal;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.hub-modal > .hub-modal-title, .hub-modal > .hub-modal-text, .hub-modal > .hub-modal-state { -unity-text-align: middle-center; }
+.hub-modal-state {
+    min-height: 32px;
+    padding: 4px var(--space-2);
+    color: var(--ink-quiet);
+    font-size: 16px;
+    white-space: normal;
+}
+.hub-team-line {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 var(--space-2);
+}
+.hub-team-card {
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 154px;
+    width: 31.6%;
+    margin: 0;
+    padding: 12px 8px 11px;
+    border-bottom-color: #8e665c;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgba(180, 125, 91, 0.21);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("Art/carved-ticket.png");
+    background-size: 100% 100%;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+.hub-team-card.is-selected {
+    border-bottom-color: var(--plum);
+    border-color: rgba(148, 80, 60, .52);
+    background-color: rgba(0, 0, 0, 0);
+}
+.hub-team-card:hover { -unity-background-image-tint-color: #ffe7cb; background-color: rgba(0, 0, 0, 0); }
+.hub-team-card:focus { border-color: #864c36; }
+.hub-lumon-icon {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 78px;
+}
+.hub-lumon-fire { background-image: url("Art/portrait-brasa.png"); }
+.hub-lumon-water { background-image: url("Art/portrait-gota.png"); }
+.hub-lumon-leaf { background-image: url("Art/portrait-broto.png"); }
+.hub-lumon-name {
+    width: 100%;
+    white-space: nowrap;
+    margin: 1px 0 0;
+    padding: 0;
+    color: var(--ink);
+    -unity-text-align: middle-center;
+    font-size: 24px;
+}
+.hub-lumon-state {
+    width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0 0 1px;
+    color: var(--ink-quiet);
+    font-size: 15px;
+    -unity-text-align: middle-center;
+}
+.hub-team-card .hub-lumon-icon { opacity: 0.6; }
+.hub-team-card.is-selected .hub-lumon-icon { opacity: 1; }
+.hub-options { margin-top: var(--space-3); }
+.hub-options-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #c6a589;
+    min-height: 58px;
+}
+.hub-setting-name {
+    flex-grow: 1;
+    flex-basis: 46%;
+    margin: 0;
+    padding: 0 var(--space-4) 0 0;
+    font-size: 18px;
+    white-space: normal;
+}
+.hub-options-input {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+.hub-choice {
+    white-space: nowrap;
+    min-width: 48px;
+    min-height: 41px;
+    margin: 0 0 0 6px;
+    padding: 3px 10px 5px;
+    color: var(--ink);
+    background-color: var(--paper);
+    border-width: 2px;
+    border-color: var(--edge);
+    border-bottom-color: #926555;
+    border-radius: 4px;
+    font-size: 17px;
+    -unity-text-align: middle-center;
+}
+.hub-choice:hover { background-color: var(--paper-light); }
+.hub-choice.is-selected {
+    background-color: var(--plum);
+    color: var(--light-text);
+    border-color: var(--plum);
+    border-bottom-color: #442338;
+}
+.hub-choice:focus { border-color: #b1742b; }
+.hub-choice.is-selected:focus { border-color: var(--focus); }
+.hub-choice:active { border-top-color: #926555; border-bottom-color: var(--edge); }
+.hub-choice:disabled { opacity: 0.5; }
+.hub-motion-choice { min-width: 90px; }
+.hub-volume {
+    min-width: 52px;
+    margin: 0;
+    padding: 3px 4px 5px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+}
+.hub-actions {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.hub-action {
+    min-width: 128px;
+    min-height: 48px;
+    margin: 0;
+    border-width: 2px;
+    border-radius: 4px;
+    -unity-text-align: middle-center;
+    margin-top: 3px;
+    padding: 3px 14px 8px;
+    color: #54283a;
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #af7d62;
+    border-bottom-width: 2px;
+    border-bottom-color: #7d5748;
+    background-image: url("Art/carved-ticket.png");
+    background-size: 100% 100%;
+}
+.hub-action:hover { background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: #fff0d1; }
+.hub-action:focus { border-color: #a9722d; }
+.hub-action:active { border-top-color: #846050; border-bottom-color: #ad8066; }
+.hub-primary {
+    margin-left: var(--space-3);
+    min-width: 150px;
+    color: #fff1db;
+    border-color: #803c32;
+    border-bottom-width: 4px;
+    border-bottom-color: #4c2830;
+    background-image: url("Art/carved-button.png");
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 0 1px 2px #4d2635;
+}
+.hub-primary:hover { background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: #ffe6c8; }
+.hub-primary:focus { border-color: var(--focus); }
+.hub-primary:active { background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: #eab9a0; }
+.hub-atlas {
+    width: 1004px;
+    height: 476px;
+    position: relative;
+}
+.hub-atlas-page {
+    position: absolute;
+    top: 15.2%;
+    bottom: 19.4%;
+    left: 53.75%;
+    right: 8.5%;
+    padding: 8px 16px;
+}
+.hub-atlas-page .hub-modal-title {
+    font-size: 31px;
+    white-space: normal;
+    margin-bottom: 1px;
+}
+.hub-atlas-page .hub-modal-text { font-size: 18px; margin-bottom: 9px; }
+.hub-atlas-page .hub-modal-state {
+    min-width: 150px;
+    white-space: nowrap;
+    align-self: flex-start;
+    background-color: rgba(113, 72, 68, 0.12);
+    border-radius: 4px;
+    padding: 4px 12px;
+    background-image: url("Art/carved-recess.png");
+    background-size: 100% 100%;
+}
+.hub-atlas-page .hub-modal-state.is-selected { color: #413d21; background-color: #e4d2a0; }
+.hub-atlas-page .hub-actions {
+    margin-top: auto;
+    align-self: stretch;
+    margin-bottom: 5px;
+}
+.is-hidden { display: none; }
+.hub-inscription {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.hub-inscription-source { opacity: 0; }
+.hub-engraved-rule {
+    width: 100%;
+    height: 15px;
+    margin: 1px 0 11px;
+    background-image: url("Art/engraved-rule.png");
+    background-size: 100% 100%;
+}
+.hub-settings-panel > .hub-modal-title { -unity-text-align: middle-left; }
+.hub-settings-panel > .hub-engraved-rule { margin-bottom: 2px; }
+.hub-settings-panel .hub-options { margin-top: 7px; }
+.hub-settings-panel .hub-actions { justify-content: flex-end; }
+.hub-atlas-page .hub-engraved-rule { width: 100%; margin: 0 0 12px; }
+.hub-portrait-well {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 50%;
+    top: 12px;
+    translate: -50% 0;
+    background-size: 100% 100%;
+}
+.hub-well-ember { background-image: url("Art/portrait-well-ember.png"); }
+.hub-well-water { background-image: url("Art/portrait-well-water.png"); }
+.hub-well-leaf { background-image: url("Art/portrait-well-leaf.png"); }
+.hub-team-card .hub-portrait-well { opacity: 0.5; }
+.hub-team-card.is-selected .hub-portrait-well { opacity: 1; }
+
+.is-spanish .hub-desk-label { font-size: 16px; }
+
+
+.hub-team-panel {
+    width: 855px;
+    min-height: 616px;
+    padding: 71px 68px 54px;
+    --workshop-cream: #fff1d3;
+    --workshop-muted: #dfd4bd;
+    --workshop-brass: #ffcf85;
+}
+
+.hub-workshop-frame, .hub-workshop-reveal-frame { background-image: url("Art/higgsfield-workshop-frame.png"); }
+.hub-team-panel .hub-serif { -unity-font: url("Fonts/SourceSerif4-Semibold.otf"); }
+
+.hub-workshop-heading {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hub-workshop-heading > .hub-modal-title {
+    margin: 0;
+    padding: 1px 0 3px;
+    font-size: 39px;
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+    color: var(--workshop-cream);
+    text-shadow: 0 2px 2px #161828;
+}
+
+.hub-workshop-coin, .hub-workshop-tab-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex-shrink: 0;
+}
+.hub-workshop-wallet {
+    flex-direction: row;
+    align-items: center;
+    min-height: 36px;
+    background-image: url("Art/higgsfield-key-jade.png");
+    background-size: 100% 100%;
+    padding: 2px 20px 2px 12px;
+}
+.hub-workshop-coin {
+    width: 28px;
+    height: 28px;
+    margin-right: 3px;
+    background-image: url("Art/workshop-icon-coin.png");
+}
+
+.hub-workshop-balance {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: var(--workshop-cream);
+    -unity-text-align: middle-center;
+}
+
+.hub-workshop-tabs {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    padding-bottom: 11px;
+    border-bottom-width: 1px;
+    border-bottom-color: #9c7847;
+}
+
+.hub-workshop-tab {
+    width: 24%;
+    min-height: 49px;
+    margin: 0;
+    padding: 1px 8px 5px 34px;
+    font-size: 20px;
+    -unity-text-align: middle-center;
+}
+
+.hub-workshop-tab, .hub-team-panel .hub-action, .hub-workshop-row {
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: url("Art/higgsfield-key-jade.png");
+    background-size: 100% 100%;
+    -unity-slice-left: 48;
+    -unity-slice-right: 48;
+    -unity-slice-top: 16;
+    -unity-slice-bottom: 18;
+    -unity-slice-scale: 0.55px;
+    -unity-background-image-tint-color: #e8e3dc;
+    color: var(--workshop-cream);
+    text-shadow: 0 1px 1px #171826;
+}
+
+.hub-team-panel .hub-action {
+    min-height: 50px;
+    min-width: 122px;
+    padding: 1px 27px 5px;
+    font-size: 20px;
+}
+.hub-workshop-tab.is-selected, .hub-workshop-row.is-selected {
+    background-image: url("Art/higgsfield-key-gold.png");
+    -unity-background-image-tint-color: white;
+}
+.hub-team-panel .hub-primary { background-image: url("Art/higgsfield-key-copper.png"); }
+
+.hub-workshop-tab:hover, .hub-workshop-row:hover, .hub-team-panel .hub-action:hover {
+    -unity-background-image-tint-color: white;
+    border-top-color: #c39c73;
+}
+.hub-workshop-tab:active, .hub-workshop-row:active, .hub-team-panel .hub-action:active {
+    -unity-background-image-tint-color: #baa797;
+    border-top-color: transparent;
+    translate: 0 1px;
+}
+.hub-workshop-tab:focus, .hub-workshop-row:focus,
+.hub-team-panel .hub-action:focus { border-color: var(--workshop-brass); }
+
+.hub-workshop-tab-icon { position: absolute; left: 8px; top: 5px; width: 30px; height: 30px; }
+.hub-workshop-icon-team { background-image: url("Art/workshop-icon-team.png"); }
+.hub-workshop-icon-fusion { background-image: url("Art/workshop-icon-fusion.png"); }
+.hub-workshop-icon-improve { background-image: url("Art/workshop-icon-improve.png"); }
+.hub-workshop-icon-eggs { background-image: url("Art/workshop-icon-eggs.png"); }
+
+.hub-team-panel .hub-team-line { width: 626px; max-width: 100%; align-self: center; }
+.hub-team-panel .hub-team-card {
+    width: 30%;
+    height: 222px;
+    flex-shrink: 0;
+    padding: 0 16px 22px;
+    border-width: 0;
+    background-color: transparent;
+    -unity-background-image-tint-color: #c1c7c5;
+}
+.hub-team-panel .hub-team-card.is-selected, .hub-team-panel .hub-team-card:hover,
+.hub-team-panel .hub-team-card:focus { -unity-background-image-tint-color: white; }
+.hub-team-panel .hub-team-card:active { -unity-background-image-tint-color: #c9b29a; translate: 0 1px; }
+.hub-element-card-fire { background-image: url("Art/higgsfield-card-fire.png"); }
+.hub-element-card-water { background-image: url("Art/higgsfield-card-water.png"); }
+.hub-element-card-leaf { background-image: url("Art/higgsfield-card-leaf.png"); }
+.hub-element-card-fire:focus { background-image: url("Art/higgsfield-card-fire-focus.png"); }
+.hub-element-card-water:focus { background-image: url("Art/higgsfield-card-water-focus.png"); }
+.hub-element-card-leaf:focus { background-image: url("Art/higgsfield-card-leaf-focus.png"); }
+.hub-team-panel .hub-lumon-icon {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 50%;
+    top: 53px;
+    translate: -50% 0;
+}
+.hub-team-panel .hub-lumon-name { color: var(--workshop-cream); font-size: 25px; text-shadow: 0 2px 2px #101b23; }
+.hub-team-panel .hub-lumon-state { color: var(--workshop-muted); font-size: 14px; margin-top: 3px; }
+.hub-team-panel .hub-modal-text, #teamState { -unity-text-align: middle-center; }
+.hub-team-panel .hub-modal-text, .hub-team-panel .hub-modal-state { color: var(--workshop-muted); }
+.hub-team-panel .hub-modal-text { margin-bottom: 6px; }
+.hub-team-panel .hub-actions { margin-top: 8px; }
+#teamRosterPane { flex-grow: 1; }
+#teamRosterPane > .hub-actions { margin-top: auto; }
+#teamState {
+    margin: 0 0 6px;
+    padding-top: 4px;
+    color: var(--workshop-cream);
+    -unity-font: url("Fonts/SourceSerif4-Semibold.otf");
+    font-size: 18px;
+}
+.hub-extra-roster { max-height: 46px; margin: 2px 0 3px; }
+.hub-workshop-intro, .hub-workshop-state, .hub-workshop-empty {
+    margin: 0;
+    padding: 1px 0 6px;
+    white-space: normal;
+    color: var(--workshop-muted);
+    font-size: 16px;
+}
+
+.hub-workshop-intro { min-height: 29px; }
+.hub-workshop-state { min-height: 33px; margin: 9px 13px 0; padding: 5px 0 3px; border-top-width: 1px; border-top-color: #8b745d; }
+.hub-workshop-columns { flex-direction: row; justify-content: space-between; }
+.hub-workshop-column { width: 48.5%; padding: 11px; background-color: rgba(15, 24, 34, 0.42); border-radius: 5px; }
+.hub-workshop-lane-title { margin: 0 0 8px; padding: 0; color: var(--workshop-brass); font-size: 21px; }
+.hub-workshop-list { height: 171px; }
+.hub-workshop-improve-list { height: 170px; }
+
+.hub-workshop-row {
+    min-height: 36px;
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 4px 11px 5px;
+    font-size: 14.5px;
+    white-space: normal;
+    -unity-text-align: middle-left;
+}
+
+.hub-workshop-row:disabled, .hub-team-panel .hub-action:disabled { opacity: .55; }
+.hub-egg-entry { margin-bottom: 6px; }
+.hub-egg-status { margin: 1px 1px 4px; padding-left: 7px; font-size: 13px; color: var(--workshop-muted); white-space: normal; }
+.hub-workshop-creature { padding-left: 43px; }
+.hub-workshop-icon { position: absolute; left: 7px; top: 4px; width: 28px; height: 28px; background-size: contain; background-position: center; background-repeat: no-repeat; }
+
+
+.hub-workshop-balance, .hub-workshop-heading > .hub-modal-title, .hub-team-panel .hub-action { white-space: nowrap; }
+
+.hub-team-panel .unity-scroll-view__content-and-vertical-scroll-container {
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+}
+
+.hub-team-panel .unity-scroll-view__content-viewport {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.hub-team-panel .unity-scroll-view__content-container { flex-shrink: 0; }
+.hub-team-panel .unity-scroll-view__vertical-scroller { width: 12px; margin-left: 4px; }
+.hub-team-panel .unity-scroller__slider { flex-grow: 1; }
+.hub-team-panel .unity-scroller__low-button, .hub-team-panel .unity-scroller__high-button { display: none; }
+.hub-team-panel .unity-scroll-view__vertical-scroller .unity-base-slider__tracker {
+    width: 4px;
+    left: 4px;
+    background-color: #222839;
+    border-radius: 2px;
+}
+.hub-team-panel .unity-scroll-view__vertical-scroller .unity-base-slider__dragger {
+    width: 9px;
+    min-height: 12px;
+    background-color: #b78d66;
+    border-radius: 3px;
+}
+
+
+.hub-modal-host { background-color: rgba(0,0,0,0); }
+.hub-modal-light {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("Art/workshop-vignette.png");
+    background-size: 100% 100%;
+}
+
+.hub-hatch-reveal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Art/higgsfield-workshop-dim.png");
+    background-size: 100% 100%;
+}
+
+.hub-hatch-card {
+    width: 444px;
+    min-height: 405px;
+    padding: 59px 42px 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hub-hatch-medallion {
+    width: 158px;
+    height: 158px;
+    margin-bottom: 10px;
+    background-image: url("Art/portrait-well-ember.png");
+    background-size: 100% 100%;
+}
+
+.hub-hatch-portrait {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hub-hatch-title {
+    margin: 0 0 8px;
+    white-space: normal;
+    color: var(--workshop-cream);
+    font-size: 39px;
+    -unity-text-align: middle-center;
+}
+
+.hub-hatch-text {
+    margin: 0 0 14px;
+    color: var(--workshop-muted);
+    font-size: 17px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.hub-hatch-card > .hub-primary { margin-left: 0; }
+
+
+.hub-shop-egg { min-height: 55px; padding-left: 58px; }
+.hub-egg-action { min-height: 40px; padding-left: 43px; }
+.hub-egg-icon {
+    position: absolute; top: 2px; bottom: 2px; left: 5px; width: 36px;
+    background-size: contain; background-position: center; background-repeat: no-repeat;
+}
+.hub-shop-egg .hub-egg-icon { width: 46px; }
+.hub-egg-fire { background-image: url("Art/egg-fire.png"); }
+.hub-egg-water { background-image: url("Art/egg-water.png"); }
+.hub-egg-leaf { background-image: url("Art/egg-leaf.png"); }
+.hub-hatch-shell {
+    position: absolute; left: 27px; right: 27px; top: 24px; bottom: 24px;
+    background-size: contain; background-position: center; background-repeat: no-repeat;
+}
+.hub-egg-fire-top { background-image: url("Art/egg-fire-top.png"); }
+.hub-egg-fire-bottom { background-image: url("Art/egg-fire-bottom.png"); }
+.hub-egg-water-top { background-image: url("Art/egg-water-top.png"); }
+.hub-egg-water-bottom { background-image: url("Art/egg-water-bottom.png"); }
+.hub-egg-leaf-top { background-image: url("Art/egg-leaf-top.png"); }
+.hub-egg-leaf-bottom { background-image: url("Art/egg-leaf-bottom.png"); }

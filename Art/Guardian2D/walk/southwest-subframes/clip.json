@@ -1,0 +1,925 @@
+{
+  "direction": "SouthWest",
+  "referenceHeightPx": 442,
+  "cadenceMs": 48.89,
+  "suggestedDistanceMeters": 1.3709,
+  "frames": [
+    {
+      "file": "frame-00.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.310811,
+      "contactY": 0.059886
+    },
+    {
+      "file": "frame-01.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.35473,
+      "contactY": 0.071293
+    },
+    {
+      "file": "frame-02.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.398649,
+      "contactY": 0.0827
+    },
+    {
+      "file": "frame-03.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.439189,
+      "contactY": 0.096008
+    },
+    {
+      "file": "frame-04.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.483108,
+      "contactY": 0.107414
+    },
+    {
+      "file": "frame-05.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.527027,
+      "contactY": 0.118821
+    },
+    {
+      "file": "frame-06.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.567568,
+      "contactY": 0.132129
+    },
+    {
+      "file": "frame-07.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.611486,
+      "contactY": 0.143536
+    },
+    {
+      "file": "frame-08.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "left",
+      "contactX": 0.655405,
+      "contactY": 0.154943
+    },
+    {
+      "file": "frame-09.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.283784,
+      "contactY": 0.059886
+    },
+    {
+      "file": "frame-10.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.327703,
+      "contactY": 0.071293
+    },
+    {
+      "file": "frame-11.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.371622,
+      "contactY": 0.0827
+    },
+    {
+      "file": "frame-12.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.412162,
+      "contactY": 0.096008
+    },
+    {
+      "file": "frame-13.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.456081,
+      "contactY": 0.107414
+    },
+    {
+      "file": "frame-14.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.5,
+      "contactY": 0.118821
+    },
+    {
+      "file": "frame-15.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.540541,
+      "contactY": 0.132129
+    },
+    {
+      "file": "frame-16.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.584459,
+      "contactY": 0.143536
+    },
+    {
+      "file": "frame-17.png",
+      "pivotX": 0.517494,
+      "pivotY": 0.107414,
+      "supportFoot": "right",
+      "contactX": 0.628378,
+      "contactY": 0.154943
+    }
+  ],
+  "status": "proof-not-accepted",
+  "sourceFrames": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3,
+    3,
+    3,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7
+  ],
+  "source": {
+    "v1Clip": "walk/southwest/clip.json",
+    "groundingClip": "walk/southwest-grounding/clip.json",
+    "script": "ground_walk_southwest_subframes.py",
+    "v1FrameSha256": {
+      "frame-00.png": "0eae6b18336ff5240889186763668804d868e59ecbae537dfe7891143a9626c2",
+      "frame-01.png": "9828f4fe1d4a15ddc61e1ca6e076cd494446310cb568226e169a1c206d477167",
+      "frame-02.png": "a6fcb2cd5e7e6c9e54ba7a604a08854291e54e5fff71c6d64169b1b22ef558cb",
+      "frame-03.png": "3227e0e1d3d0651e5c50eae9aa7aeb85d277ad64d8e27c03571edbf46cdee0d6",
+      "frame-04.png": "5629e80f5f9753b422e90bc9f6a8feeaa06f0c36ae494e43188e9ef6a303023e",
+      "frame-05.png": "f58e65839d85c4433df20e18c01ffed1d7b2c7ec76c4eb2b88ba17c51f79784b"
+    },
+    "groundingSha256": {
+      "animation-review.md": "15d51e4b961ce5a53e5cac01bbe9a4a8f650164630dfbdc46e27751cd0151d9f",
+      "clip.json": "0ff664494397edbfd45538a5a7ef99cfbb96e8ce9e232dfd22eec5deb2f96baa",
+      "frame-00.png": "88ad9eb37f4c64dae325c981f3bab0a86014feb5a21feb029e11b3519dd7af64",
+      "frame-01.png": "6774c8c68e96c22fed44c9ba92f36e0f13ea7dfea7f8a7e852bc8868dbd0530d",
+      "frame-02.png": "bff7ce795e581f674a7d331666f1cf7b818511d335d6e00bbd15dd2e897e29fe",
+      "frame-03.png": "35594ad72fd8895e5a3093c6f9d5ee3c79c4c570e527c7595fb5dea4c798170a",
+      "frame-04.png": "54586675f3b87e5838e78dd28f5eea41ebd0bf18087f15eb258c1ced66fdffe9",
+      "frame-05.png": "af96a32d385dfbab6bd9cbbaad441c86c14a1d140b5be10542a2227079519a09",
+      "preview-720p-onion-3x.png": "698b0fae5890a6143089aa9d946b2aba93ce0d3647226559e37117cec150bb1e",
+      "preview-720p-onion.png": "6c2b1968cd9b332b2e0732e9aeb70b1874f13f7c8b35a547373d8be916394f8c",
+      "preview-720p-planted-check.png": "dad60ec53b17c9b048087bd7d33d545202dfb5815bc96aa796c1d7e2cd7e75ad",
+      "preview-720p-strip.png": "a61bf546adc1a869d0345e67bf4569d23ec046d645e315a5182f28ffd794a137",
+      "preview-720p-travel.gif": "87cee44f1ca760721ec5e6f1ee9618d54c7de48390e8cf708d32be24c4066e69",
+      "preview-legs-1.5x.png": "3cad6dd96781bddb6844b43fb316549dabeaa34d537a0e112d22abecc9708f08"
+    }
+  },
+  "conventions": {
+    "pivot": "normalized, origin bottom-left, identical for every frame and equal to grounding",
+    "contact": "normalized, origin bottom-left of this canvas; support-boot heel corner (opaque pixel maximising y + 0.5*x in the moved boot), re-measured on the output alpha; contactX is the left edge of that pixel column, contactY its bottom edge",
+    "supportFoot": "foot planted by trajectory, 9 + 9 subposes (left = near leg)",
+    "cadenceMs": "880 ms cycle / 18 subposes",
+    "sourceFrames": "GIF frame of the v1 base painting used by each subpose"
+  },
+  "measurements": {
+    "canvasPx": [
+      296,
+      526
+    ],
+    "sourceToScreen720": 0.3733,
+    "subposeStepExactPx": [
+      12.67,
+      -6.33
+    ],
+    "subposeStepExactScreen720": [
+      4.73,
+      -2.36
+    ],
+    "kneeDeltaAppliedPx": [
+      13.0,
+      -6.0
+    ],
+    "rootStepPerSubposeScreen720": [
+      -4.73,
+      2.363
+    ],
+    "kneeFraction": 0.45,
+    "subposes": [
+      {
+        "base": 0,
+        "sub": 0,
+        "offsetPx": [
+          -15.51,
+          21.99
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 1291,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1291,
+        "changedPxAboveHip": 2,
+        "bootOpaqueV1": 3846,
+        "bootOpaqueOut": 3755,
+        "bootSharpnessLapVar": 743.0
+      },
+      {
+        "base": 0,
+        "sub": 1,
+        "offsetPx": [
+          -2.51,
+          15.99
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 846,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 846,
+        "changedPxAboveHip": 2,
+        "bootOpaqueV1": 3846,
+        "bootOpaqueOut": 3755,
+        "bootSharpnessLapVar": 743.0
+      },
+      {
+        "base": 0,
+        "sub": 2,
+        "offsetPx": [
+          10.49,
+          9.99
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 1630,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1630,
+        "changedPxAboveHip": 2,
+        "bootOpaqueV1": 3846,
+        "bootOpaqueOut": 3755,
+        "bootSharpnessLapVar": 743.0
+      },
+      {
+        "base": 1,
+        "sub": 0,
+        "offsetPx": [
+          -13.5,
+          -2.0
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 1780,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1780,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3722,
+        "bootOpaqueOut": 3633,
+        "bootSharpnessLapVar": 949.7
+      },
+      {
+        "base": 1,
+        "sub": 1,
+        "offsetPx": [
+          -0.5,
+          -8.0
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 851,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 851,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3722,
+        "bootOpaqueOut": 3633,
+        "bootSharpnessLapVar": 949.7
+      },
+      {
+        "base": 1,
+        "sub": 2,
+        "offsetPx": [
+          12.5,
+          -14.0
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 2191,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 2191,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3722,
+        "bootOpaqueOut": 3642,
+        "bootSharpnessLapVar": 949.9
+      },
+      {
+        "base": 2,
+        "sub": 0,
+        "offsetPx": [
+          -10.49,
+          -15.99
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 2297,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 2297,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3481,
+        "bootOpaqueOut": 3396,
+        "bootSharpnessLapVar": 789.7
+      },
+      {
+        "base": 2,
+        "sub": 1,
+        "offsetPx": [
+          2.51,
+          -21.99
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 2446,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 2446,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3481,
+        "bootOpaqueOut": 3396,
+        "bootSharpnessLapVar": 789.7
+      },
+      {
+        "base": 2,
+        "sub": 2,
+        "offsetPx": [
+          15.51,
+          -27.99
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 3968,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 3968,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3481,
+        "bootOpaqueOut": 3449,
+        "bootSharpnessLapVar": 771.9
+      },
+      {
+        "base": 3,
+        "sub": 0,
+        "offsetPx": [
+          -13.52,
+          28.99
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 1441,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1441,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3683,
+        "bootOpaqueOut": 3592,
+        "bootSharpnessLapVar": 549.2
+      },
+      {
+        "base": 3,
+        "sub": 1,
+        "offsetPx": [
+          -0.52,
+          22.99
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 1274,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1274,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3683,
+        "bootOpaqueOut": 3592,
+        "bootSharpnessLapVar": 549.2
+      },
+      {
+        "base": 3,
+        "sub": 2,
+        "offsetPx": [
+          12.48,
+          16.99
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 2102,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 2102,
+        "changedPxAboveHip": 0,
+        "bootOpaqueV1": 3683,
+        "bootOpaqueOut": 3592,
+        "bootSharpnessLapVar": 549.2
+      },
+      {
+        "base": 4,
+        "sub": 0,
+        "offsetPx": [
+          -7.51,
+          -4.0
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 1227,
+        "inpaintedPx": 1,
+        "leftTransparentPx": 1226,
+        "changedPxAboveHip": 3,
+        "bootOpaqueV1": 3829,
+        "bootOpaqueOut": 3741,
+        "bootSharpnessLapVar": 865.9
+      },
+      {
+        "base": 4,
+        "sub": 1,
+        "offsetPx": [
+          5.49,
+          -10.0
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 1222,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 1222,
+        "changedPxAboveHip": 3,
+        "bootOpaqueV1": 3829,
+        "bootOpaqueOut": 3741,
+        "bootSharpnessLapVar": 865.9
+      },
+      {
+        "base": 4,
+        "sub": 2,
+        "offsetPx": [
+          18.49,
+          -16.0
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 2877,
+        "inpaintedPx": 0,
+        "leftTransparentPx": 2877,
+        "changedPxAboveHip": 3,
+        "bootOpaqueV1": 3829,
+        "bootOpaqueOut": 3741,
+        "bootSharpnessLapVar": 865.9
+      },
+      {
+        "base": 5,
+        "sub": 0,
+        "offsetPx": [
+          -18.49,
+          -16.99
+        ],
+        "kneeDeltaPx": [
+          -13.0,
+          6.0
+        ],
+        "uncoveredPx": 3501,
+        "inpaintedPx": 2,
+        "leftTransparentPx": 3499,
+        "changedPxAboveHip": 4,
+        "bootOpaqueV1": 3633,
+        "bootOpaqueOut": 3545,
+        "bootSharpnessLapVar": 908.2
+      },
+      {
+        "base": 5,
+        "sub": 1,
+        "offsetPx": [
+          -5.49,
+          -22.99
+        ],
+        "kneeDeltaPx": [
+          0.0,
+          -0.0
+        ],
+        "uncoveredPx": 2404,
+        "inpaintedPx": 2,
+        "leftTransparentPx": 2402,
+        "changedPxAboveHip": 4,
+        "bootOpaqueV1": 3633,
+        "bootOpaqueOut": 3545,
+        "bootSharpnessLapVar": 908.2
+      },
+      {
+        "base": 5,
+        "sub": 2,
+        "offsetPx": [
+          7.51,
+          -28.99
+        ],
+        "kneeDeltaPx": [
+          13.0,
+          -6.0
+        ],
+        "uncoveredPx": 3144,
+        "inpaintedPx": 2,
+        "leftTransparentPx": 3142,
+        "changedPxAboveHip": 4,
+        "bootOpaqueV1": 3633,
+        "bootOpaqueOut": 3560,
+        "bootSharpnessLapVar": 902.8
+      }
+    ],
+    "regressionSub1VsGrounding": {
+      "00": {
+        "pxDifferent": 8,
+        "maxLevelDiff": 40
+      },
+      "01": {
+        "pxDifferent": 92,
+        "maxLevelDiff": 37
+      },
+      "02": {
+        "pxDifferent": 60,
+        "maxLevelDiff": 39
+      },
+      "03": {
+        "pxDifferent": 0,
+        "maxLevelDiff": 0
+      },
+      "04": {
+        "pxDifferent": 8,
+        "maxLevelDiff": 55
+      },
+      "05": {
+        "pxDifferent": 180,
+        "maxLevelDiff": 99
+      }
+    },
+    "pairs": [
+      {
+        "pair": "00->01",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 9532
+      },
+      {
+        "pair": "01->02",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 9232
+      },
+      {
+        "pair": "02->03",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          12.0,
+          -7.0
+        ],
+        "residualVsExactScreen720": [
+          -0.25,
+          -0.25
+        ],
+        "changedPxAboveHip": 40025,
+        "changedPxTotal": 84018
+      },
+      {
+        "pair": "03->04",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8933
+      },
+      {
+        "pair": "04->05",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8630
+      },
+      {
+        "pair": "05->06",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          12.0,
+          -7.0
+        ],
+        "residualVsExactScreen720": [
+          -0.25,
+          -0.25
+        ],
+        "changedPxAboveHip": 38313,
+        "changedPxTotal": 80797
+      },
+      {
+        "pair": "06->07",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8971
+      },
+      {
+        "pair": "07->08",
+        "foot": "left",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8565
+      },
+      {
+        "pair": "08->09",
+        "foot": "left",
+        "kind": "handoff (support changes)",
+        "contactStepPx": null,
+        "residualVsExactScreen720": null,
+        "changedPxAboveHip": 38005,
+        "changedPxTotal": 86007
+      },
+      {
+        "pair": "09->10",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 9079
+      },
+      {
+        "pair": "10->11",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8856
+      },
+      {
+        "pair": "11->12",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          12.0,
+          -7.0
+        ],
+        "residualVsExactScreen720": [
+          -0.25,
+          -0.25
+        ],
+        "changedPxAboveHip": 40479,
+        "changedPxTotal": 86457
+      },
+      {
+        "pair": "12->13",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8773
+      },
+      {
+        "pair": "13->14",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8444
+      },
+      {
+        "pair": "14->15",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          12.0,
+          -7.0
+        ],
+        "residualVsExactScreen720": [
+          -0.25,
+          -0.25
+        ],
+        "changedPxAboveHip": 42359,
+        "changedPxTotal": 88914
+      },
+      {
+        "pair": "15->16",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8704
+      },
+      {
+        "pair": "16->17",
+        "foot": "right",
+        "kind": "planted",
+        "contactStepPx": [
+          13.0,
+          -6.0
+        ],
+        "residualVsExactScreen720": [
+          0.12,
+          0.12
+        ],
+        "changedPxAboveHip": 0,
+        "changedPxTotal": 8336
+      },
+      {
+        "pair": "17->00",
+        "foot": "right",
+        "kind": "handoff (support changes)",
+        "contactStepPx": null,
+        "residualVsExactScreen720": null,
+        "changedPxAboveHip": 42316,
+        "changedPxTotal": 89686
+      }
+    ],
+    "stanceDriftFromLandingScreen720": {
+      "subframes": [
+        0.0,
+        0.17,
+        0.35,
+        0.01,
+        0.17,
+        0.34,
+        0.01,
+        0.16,
+        0.34,
+        0.0,
+        0.17,
+        0.35,
+        0.01,
+        0.17,
+        0.34,
+        0.01,
+        0.16,
+        0.34
+      ],
+      "groundingHeld3": [
+        0.0,
+        5.29,
+        10.58,
+        0.01,
+        5.29,
+        10.58,
+        0.01,
+        5.29,
+        10.58,
+        0.0,
+        5.29,
+        10.58,
+        0.01,
+        5.29,
+        10.58,
+        0.01,
+        5.29,
+        10.58
+      ]
+    },
+    "frameSha256": {
+      "frame-00.png": "a88019616c67730aeabb1de1c6ddd3a5ec60e7715a24f021e72f2feec3fea88e",
+      "frame-01.png": "a2d898d710010a2dcbc4a38c6ccaf744ba81bb395918475cf62524b886209cdf",
+      "frame-02.png": "b84e060acd9f13abde97278baa57b725b83f9fee01ae851e1e554b5b6ff656e4",
+      "frame-03.png": "40f885e8ccf9bb3e78615720d07c6bd3bcd81f7d26b8253c5c654bf17fdb9cbc",
+      "frame-04.png": "4e5db05997cd0bb5d591db769626e047ca03b357a9570b3a558469c508655bb1",
+      "frame-05.png": "a6f3aca364f727641863254d5c8265a19f863651710eb655f7b7038005aa9df8",
+      "frame-06.png": "44f5ed6feb5a9843eb24911e772e02fdac0876badb19e3ca2e7baf6a45115cd7",
+      "frame-07.png": "c5d95b2f6b5ff8754367ab920afe616312d9365744317ebb0f2ed767daa35593",
+      "frame-08.png": "f44aafe5a6d5ff010d868a2d1c5591aa07827c2fa09f4b0c0bb9ad7add56ac51",
+      "frame-09.png": "8b3aa9f74d3e2d59a3f3639f7b65c4c4cc776f7b4f674a800e5dca5f2b6e3d5a",
+      "frame-10.png": "35594ad72fd8895e5a3093c6f9d5ee3c79c4c570e527c7595fb5dea4c798170a",
+      "frame-11.png": "e643de6bda7317e28320e32a6f8097822dd2b3e347d2d1e294b59122db9ea7a0",
+      "frame-12.png": "a851863e0ecb82d67fb48559a6150f29b41294c41ca932df49081e7d05106470",
+      "frame-13.png": "52a964c1db274b860a9b1c66c4a6d7195deea7ade8a0041f0a861523752b447f",
+      "frame-14.png": "589f2a5a9cc5e3ff6b0cdb70a99703a0795a438b2d0df915dd4ab17d4dc597b6",
+      "frame-15.png": "96af3a27ade40f3c86518846faebd3744ca204aef3380634b7889cbd5e356f7f",
+      "frame-16.png": "d0b864a3af6f4964504947e605d67e30e203998251ab2ea616e9a49093054592",
+      "frame-17.png": "6e6fcaebe02e2a3aaa02b2eb4de6c70e475384346406c0d684160d7ead2a3b3a"
+    }
+  }
+}

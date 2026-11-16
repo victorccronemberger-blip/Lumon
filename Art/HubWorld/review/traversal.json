@@ -1,0 +1,1096 @@
+{
+    "method": "Lumon.HubWorld.Editor.HubTraversalSetup.InstallAndVerify",
+    "passed": true,
+    "failure": "",
+    "unity": "6000.3.27f1",
+    "generatedUtc": "2026-11-15T21:45:30Z",
+    "scene": "Assets/Lumon/HubWorld/HubWorld.unity",
+    "sceneSaved": true,
+    "toolObject": "HubWorld traversal",
+    "toolObjectCreated": true,
+    "coordinates": "Plate pixels from the top-left corner of the painting. Feet are the guardian's transform.",
+    "walking": "GuardianMotion.Tick with one of eight keyboard directions per frame. Every walk starts on the spawn saved in the scene.",
+    "plateWidth": 1672,
+    "plateHeight": 941,
+    "spawnWorld": {
+        "x": -0.6414222121238709,
+        "y": -8.274577112388215e-8,
+        "z": -2.1501822471618654
+    },
+    "spawnPlate": {
+        "x": 762.4320068359375,
+        "y": 663.3084106445313
+    },
+    "spawnPlateExpected": {
+        "x": 762.0,
+        "y": 663.0
+    },
+    "guardianSpeed": 2.799999952316284,
+    "platePixelsPerSecondSideways": 321.1463623046875,
+    "platePixelsPerSecondInDepth": 160.57315063476563,
+    "cameraPosition": {
+        "x": 0.0,
+        "y": 6.300000190734863,
+        "z": -9.699999809265137
+    },
+    "cameraEuler": {
+        "x": 30.000003814697267,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "cameraOrthographicSize": 4.099999904632568,
+    "cameraComponents": [
+        "Transform",
+        "Camera"
+    ],
+    "footMargin": 6.0,
+    "floor": [
+        {
+            "x": 445.0,
+            "y": 565.0
+        },
+        {
+            "x": 484.0,
+            "y": 544.0
+        },
+        {
+            "x": 511.0,
+            "y": 512.0
+        },
+        {
+            "x": 565.0,
+            "y": 481.0
+        },
+        {
+            "x": 606.0,
+            "y": 478.0
+        },
+        {
+            "x": 637.0,
+            "y": 455.0
+        },
+        {
+            "x": 719.0,
+            "y": 455.0
+        },
+        {
+            "x": 745.0,
+            "y": 474.0
+        },
+        {
+            "x": 826.0,
+            "y": 445.0
+        },
+        {
+            "x": 884.0,
+            "y": 431.0
+        },
+        {
+            "x": 952.0,
+            "y": 430.0
+        },
+        {
+            "x": 992.0,
+            "y": 451.0
+        },
+        {
+            "x": 1028.0,
+            "y": 478.0
+        },
+        {
+            "x": 1046.0,
+            "y": 501.0
+        },
+        {
+            "x": 1031.0,
+            "y": 540.0
+        },
+        {
+            "x": 1083.0,
+            "y": 574.0
+        },
+        {
+            "x": 1094.0,
+            "y": 605.0
+        },
+        {
+            "x": 1021.0,
+            "y": 641.0
+        },
+        {
+            "x": 987.0,
+            "y": 698.0
+        },
+        {
+            "x": 969.0,
+            "y": 784.0
+        },
+        {
+            "x": 946.0,
+            "y": 864.0
+        },
+        {
+            "x": 524.0,
+            "y": 868.0
+        },
+        {
+            "x": 503.0,
+            "y": 808.0
+        },
+        {
+            "x": 502.0,
+            "y": 739.0
+        },
+        {
+            "x": 427.0,
+            "y": 678.0
+        },
+        {
+            "x": 414.0,
+            "y": 639.0
+        }
+    ],
+    "obstacles": [
+        {
+            "name": "Campfire",
+            "points": [
+                {
+                    "x": 983.0,
+                    "y": 447.0
+                },
+                {
+                    "x": 976.0333251953125,
+                    "y": 456.5
+                },
+                {
+                    "x": 957.0,
+                    "y": 463.4544677734375
+                },
+                {
+                    "x": 931.0,
+                    "y": 466.0
+                },
+                {
+                    "x": 905.0,
+                    "y": 463.4544677734375
+                },
+                {
+                    "x": 885.9666748046875,
+                    "y": 456.5
+                },
+                {
+                    "x": 879.0,
+                    "y": 447.0
+                },
+                {
+                    "x": 885.9666748046875,
+                    "y": 437.5
+                },
+                {
+                    "x": 905.0,
+                    "y": 430.5455322265625
+                },
+                {
+                    "x": 931.0,
+                    "y": 428.0
+                },
+                {
+                    "x": 957.0,
+                    "y": 430.5455322265625
+                },
+                {
+                    "x": 976.0333251953125,
+                    "y": 437.5
+                }
+            ],
+            "pointsInsideFloor": 8
+        },
+        {
+            "name": "Expedition desk",
+            "points": [
+                {
+                    "x": 1002.0,
+                    "y": 530.0
+                },
+                {
+                    "x": 1012.0,
+                    "y": 497.0
+                },
+                {
+                    "x": 1030.0,
+                    "y": 472.0
+                },
+                {
+                    "x": 1060.0,
+                    "y": 462.0
+                },
+                {
+                    "x": 1210.0,
+                    "y": 462.0
+                },
+                {
+                    "x": 1210.0,
+                    "y": 585.0
+                },
+                {
+                    "x": 1090.0,
+                    "y": 585.0
+                },
+                {
+                    "x": 1042.0,
+                    "y": 570.0
+                },
+                {
+                    "x": 1006.0,
+                    "y": 555.0
+                }
+            ],
+            "pointsInsideFloor": 4
+        }
+    ],
+    "stations": [
+        {
+            "station": "Team",
+            "anchor": {
+                "x": 390.0,
+                "y": 585.0
+            },
+            "pointerArea": {
+                "serializedVersion": "2",
+                "x": 300.0,
+                "y": 470.0,
+                "width": 130.0,
+                "height": 175.0
+            },
+            "approach": {
+                "x": 452.0,
+                "y": 612.0
+            },
+            "reach": 60.0,
+            "hudShortcut": true,
+            "reached": true,
+            "frames": 56,
+            "seconds": 0.9333333969116211,
+            "arrivedAt": {
+                "x": 497.1847839355469,
+                "y": 621.6762084960938
+            },
+            "path": [
+                {
+                    "x": 762.4320068359375,
+                    "y": 663.3084106445313
+                },
+                {
+                    "x": 730.3173828125,
+                    "y": 663.3084106445313
+                },
+                {
+                    "x": 698.2027587890625,
+                    "y": 663.3084106445313
+                },
+                {
+                    "x": 670.7911987304688,
+                    "y": 657.63134765625
+                },
+                {
+                    "x": 643.379638671875,
+                    "y": 651.9542236328125
+                },
+                {
+                    "x": 615.9681396484375,
+                    "y": 646.277099609375
+                },
+                {
+                    "x": 588.5565795898438,
+                    "y": 640.5999755859375
+                },
+                {
+                    "x": 561.1450805664063,
+                    "y": 634.9228515625
+                },
+                {
+                    "x": 533.7335205078125,
+                    "y": 629.2456665039063
+                },
+                {
+                    "x": 506.32196044921877,
+                    "y": 623.5685424804688
+                },
+                {
+                    "x": 497.1847839355469,
+                    "y": 621.6762084960938
+                }
+            ]
+        },
+        {
+            "station": "Expeditions",
+            "anchor": {
+                "x": 1160.0,
+                "y": 548.0
+            },
+            "pointerArea": {
+                "serializedVersion": "2",
+                "x": 1012.0,
+                "y": 388.0,
+                "width": 290.0,
+                "height": 185.0
+            },
+            "approach": {
+                "x": 1058.0,
+                "y": 598.0
+            },
+            "reach": 60.0,
+            "hudShortcut": true,
+            "reached": true,
+            "frames": 55,
+            "seconds": 0.9166666865348816,
+            "arrivedAt": {
+                "x": 1011.35302734375,
+                "y": 608.4295654296875
+            },
+            "path": [
+                {
+                    "x": 762.4320068359375,
+                    "y": 663.3084106445313
+                },
+                {
+                    "x": 786.7081909179688,
+                    "y": 653.8465576171875
+                },
+                {
+                    "x": 814.1197509765625,
+                    "y": 648.16943359375
+                },
+                {
+                    "x": 841.5313110351563,
+                    "y": 642.4923706054688
+                },
+                {
+                    "x": 868.9428100585938,
+                    "y": 636.815185546875
+                },
+                {
+                    "x": 896.3544311523438,
+                    "y": 631.1380615234375
+                },
+                {
+                    "x": 923.7659912109375,
+                    "y": 625.4609375
+                },
+                {
+                    "x": 951.1775512695313,
+                    "y": 619.7838134765625
+                },
+                {
+                    "x": 978.5890502929688,
+                    "y": 614.106689453125
+                },
+                {
+                    "x": 1006.0006103515625,
+                    "y": 608.4295654296875
+                },
+                {
+                    "x": 1011.35302734375,
+                    "y": 608.4295654296875
+                }
+            ]
+        },
+        {
+            "station": "Settings",
+            "anchor": {
+                "x": 673.0,
+                "y": 443.0
+            },
+            "pointerArea": {
+                "serializedVersion": "2",
+                "x": 640.0,
+                "y": 345.0,
+                "width": 68.0,
+                "height": 112.0
+            },
+            "approach": {
+                "x": 678.0,
+                "y": 468.0
+            },
+            "reach": 50.0,
+            "hudShortcut": true,
+            "reached": true,
+            "frames": 66,
+            "seconds": 1.100000023841858,
+            "arrivedAt": {
+                "x": 701.8760375976563,
+                "y": 499.2195129394531
+            },
+            "path": [
+                {
+                    "x": 762.4320068359375,
+                    "y": 663.3084106445313
+                },
+                {
+                    "x": 762.4320068359375,
+                    "y": 647.2511596679688
+                },
+                {
+                    "x": 762.4320068359375,
+                    "y": 631.1937866210938
+                },
+                {
+                    "x": 762.4320068359375,
+                    "y": 615.1365356445313
+                },
+                {
+                    "x": 762.4320068359375,
+                    "y": 599.0791625976563
+                },
+                {
+                    "x": 762.4320068359375,
+                    "y": 583.0218505859375
+                },
+                {
+                    "x": 758.6472778320313,
+                    "y": 567.7484130859375
+                },
+                {
+                    "x": 747.2930297851563,
+                    "y": 554.0426635742188
+                },
+                {
+                    "x": 735.9387817382813,
+                    "y": 540.3368530273438
+                },
+                {
+                    "x": 724.5845336914063,
+                    "y": 526.6310424804688
+                },
+                {
+                    "x": 713.2302856445313,
+                    "y": 512.9252319335938
+                },
+                {
+                    "x": 701.8760375976563,
+                    "y": 499.2195129394531
+                },
+                {
+                    "x": 701.8760375976563,
+                    "y": 499.2195129394531
+                }
+            ]
+        }
+    ],
+    "frontOffset": 100,
+    "guardianLowestOrder": -1,
+    "guardianHighestOrder": 0,
+    "occluders": [
+        {
+            "name": "Campfire",
+            "baseline": 452.0,
+            "layers": [
+                "CampfireHearth",
+                "CampfireFlame",
+                "CampfireGlow"
+            ],
+            "sprites": [
+                "CampfireHearth",
+                "CampfireFlame",
+                "CampfireGlow"
+            ],
+            "paintedOrders": [
+                -21,
+                -19,
+                -18
+            ]
+        },
+        {
+            "name": "Plaza tree",
+            "baseline": 420.0,
+            "layers": [
+                "PlazaTree"
+            ],
+            "sprites": [
+                "PlazaTree"
+            ],
+            "paintedOrders": [
+                -30
+            ]
+        }
+    ],
+    "holds": [
+        {
+            "direction": "N",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 903.693115234375,
+                "y": 430.93994140625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NE",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 982.645263671875,
+                "y": 446.4214172363281
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "E",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 1093.6688232421875,
+                "y": 604.8411254882813
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SE",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 946.0567626953125,
+                "y": 863.7699584960938
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "S",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 733.5806884765625,
+                "y": 865.7840576171875
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SW",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 524.4476318359375,
+                "y": 867.9481201171875
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "W",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 414.44537353515627,
+                "y": 639.0557250976563
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NW",
+            "secondsPerStep": 0.01666666753590107,
+            "steps": 360,
+            "endedAt": {
+                "x": 565.3248901367188,
+                "y": 481.1628112792969
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "N",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 903.8729248046875,
+                "y": 430.937255859375
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NE",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 982.5423583984375,
+                "y": 446.36737060546877
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "E",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 1093.450927734375,
+                "y": 604.765869140625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SE",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 945.5265502929688,
+                "y": 863.7750244140625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "S",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 733.5813598632813,
+                "y": 865.7840576171875
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SW",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 524.4555053710938,
+                "y": 867.7662353515625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "W",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 414.5142517089844,
+                "y": 638.8914184570313
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NW",
+            "secondsPerStep": 0.25,
+            "steps": 24,
+            "endedAt": {
+                "x": 564.9867553710938,
+                "y": 481.3569030761719
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "N",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 903.8054809570313,
+                "y": 430.9382629394531
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NE",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 982.5809936523438,
+                "y": 446.3876647949219
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "E",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 1093.5909423828125,
+                "y": 605.160400390625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SE",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 945.612060546875,
+                "y": 863.7373657226563
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "S",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 733.5814208984375,
+                "y": 865.7840576171875
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SW",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 524.4555053710938,
+                "y": 867.7662353515625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "W",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 414.4652099609375,
+                "y": 639.0003051757813
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NW",
+            "secondsPerStep": 0.5,
+            "steps": 12,
+            "endedAt": {
+                "x": 565.5050659179688,
+                "y": 481.05938720703127
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "N",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 903.8054809570313,
+                "y": 430.9382629394531
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NE",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 982.5809936523438,
+                "y": 446.3876647949219
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "E",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 1093.5909423828125,
+                "y": 605.1603393554688
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SE",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 945.612060546875,
+                "y": 863.7373657226563
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "S",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 733.5814208984375,
+                "y": 865.7840576171875
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "SW",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 524.4555053710938,
+                "y": 867.7662353515625
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "W",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 414.46527099609377,
+                "y": 639.0003662109375
+            },
+            "stayedOnFloor": true
+        },
+        {
+            "direction": "NW",
+            "secondsPerStep": 6.0,
+            "steps": 1,
+            "endedAt": {
+                "x": 565.5050659179688,
+                "y": 481.05938720703127
+            },
+            "stayedOnFloor": true
+        }
+    ],
+    "blocks": [
+        {
+            "obstacle": "Campfire",
+            "from": {
+                "x": 925.1760864257813,
+                "y": 496.29736328125
+            },
+            "unobstructed": {
+                "x": 925.1760864257813,
+                "y": 456.1540222167969
+            },
+            "endedAt": {
+                "x": 921.5894775390625,
+                "y": 465.3124694824219
+            },
+            "secondsPerStep": 0.25
+        },
+        {
+            "obstacle": "Campfire",
+            "from": {
+                "x": 925.1760864257813,
+                "y": 496.29736328125
+            },
+            "unobstructed": {
+                "x": 925.1760864257813,
+                "y": 456.154052734375
+            },
+            "endedAt": {
+                "x": 906.4490966796875,
+                "y": 463.8301086425781
+            },
+            "secondsPerStep": 0.5
+        },
+        {
+            "obstacle": "Expedition desk",
+            "from": {
+                "x": 1051.6865234375,
+                "y": 598.9677124023438
+            },
+            "unobstructed": {
+                "x": 1051.6865234375,
+                "y": 558.8244018554688
+            },
+            "endedAt": {
+                "x": 1038.38134765625,
+                "y": 568.7908325195313
+            },
+            "secondsPerStep": 0.25
+        },
+        {
+            "obstacle": "Expedition desk",
+            "from": {
+                "x": 1051.6865234375,
+                "y": 598.9677124023438
+            },
+            "unobstructed": {
+                "x": 1051.6865234375,
+                "y": 558.824462890625
+            },
+            "endedAt": {
+                "x": 1004.4717407226563,
+                "y": 548.3250732421875
+            },
+            "secondsPerStep": 0.5
+        }
+    ],
+    "checks": [
+        {
+            "name": "Plate faces the fixed orthographic camera",
+            "passed": true,
+            "detail": "Orthographic: True. Angle between camera and stage: 0.0000 degrees."
+        },
+        {
+            "name": "Spawn is the one already in the scene, on the compass",
+            "passed": true,
+            "detail": "The saved guardian position reads as plate (762.4, 663.3), 0.53 px from (762, 663). It was not moved."
+        },
+        {
+            "name": "Spawn is on the floor",
+            "passed": true,
+            "detail": "Inside the outline, outside every obstacle."
+        },
+        {
+            "name": "Every obstacle reaches into the floor",
+            "passed": true,
+            "detail": "Each obstacle outline has at least one point inside the floor outline."
+        },
+        {
+            "name": "Team: refused from the spawn",
+            "passed": true,
+            "detail": "F and a click on the station announce nothing while the guardian is out of reach."
+        },
+        {
+            "name": "Team: HUD request from the spawn",
+            "passed": true,
+            "detail": "hudShortcut is True; the HUD request was announced without walking."
+        },
+        {
+            "name": "Team: reached on foot from the spawn",
+            "passed": true,
+            "detail": "56 frames (0.93 s) to plate (497, 622); NearbyStation is Team."
+        },
+        {
+            "name": "Team: F and click accepted beside it",
+            "passed": true,
+            "detail": "Each announced the station once."
+        },
+        {
+            "name": "Team: world input pauses and resumes",
+            "passed": true,
+            "detail": "Paused: 30 frames of held keys move nothing, F and click are ignored, the nearby station is still reported. Resumed: the next frame moves her."
+        },
+        {
+            "name": "Expeditions: refused from the spawn",
+            "passed": true,
+            "detail": "F and a click on the station announce nothing while the guardian is out of reach."
+        },
+        {
+            "name": "Expeditions: HUD request from the spawn",
+            "passed": true,
+            "detail": "hudShortcut is True; the HUD request was announced without walking."
+        },
+        {
+            "name": "Expeditions: reached on foot from the spawn",
+            "passed": true,
+            "detail": "55 frames (0.92 s) to plate (1011, 608); NearbyStation is Expeditions."
+        },
+        {
+            "name": "Expeditions: F and click accepted beside it",
+            "passed": true,
+            "detail": "Each announced the station once."
+        },
+        {
+            "name": "Expeditions: world input pauses and resumes",
+            "passed": true,
+            "detail": "Paused: 30 frames of held keys move nothing, F and click are ignored, the nearby station is still reported. Resumed: the next frame moves her."
+        },
+        {
+            "name": "Settings: refused from the spawn",
+            "passed": true,
+            "detail": "F and a click on the station announce nothing while the guardian is out of reach."
+        },
+        {
+            "name": "Settings: HUD request from the spawn",
+            "passed": true,
+            "detail": "hudShortcut is True; the HUD request was announced without walking."
+        },
+        {
+            "name": "Settings: reached on foot from the spawn",
+            "passed": true,
+            "detail": "66 frames (1.10 s) to plate (702, 499); NearbyStation is Settings."
+        },
+        {
+            "name": "Settings: F and click accepted beside it",
+            "passed": true,
+            "detail": "Each announced the station once."
+        },
+        {
+            "name": "Settings: world input pauses and resumes",
+            "passed": true,
+            "detail": "Paused: 30 frames of held keys move nothing, F and click are ignored, the nearby station is still reported. Resumed: the next frame moves her."
+        },
+        {
+            "name": "At least three stations reachable from the spawn",
+            "passed": true,
+            "detail": "3 of 3."
+        },
+        {
+            "name": "The outline holds in all eight directions",
+            "passed": true,
+            "detail": "Six seconds per direction at 1/60, 0.25, 0.5 and 6 seconds per step. She left the spawn and never left the floor."
+        },
+        {
+            "name": "Long steps end where short steps end",
+            "passed": true,
+            "detail": "For each direction the four runs stop within 12 px of each other, so a fast frame neither jumps an edge nor sticks early."
+        },
+        {
+            "name": "She slides along an edge",
+            "passed": true,
+            "detail": "Held north against the slanted upper edge she drifted 141 px sideways along it."
+        },
+        {
+            "name": "Campfire blocks a 0.25 s step",
+            "passed": true,
+            "detail": "From (925, 496) the step north passes through (925, 456), inside the obstacle. She ended at (922, 465), outside it and on the floor."
+        },
+        {
+            "name": "Campfire blocks a 0.50 s step",
+            "passed": true,
+            "detail": "From (925, 496) the step north passes through (925, 456), inside the obstacle. She ended at (906, 464), outside it and on the floor."
+        },
+        {
+            "name": "Expedition desk blocks a 0.25 s step",
+            "passed": true,
+            "detail": "From (1052, 599) the step north passes through (1052, 559), inside the obstacle. She ended at (1038, 569), outside it and on the floor."
+        },
+        {
+            "name": "Expedition desk blocks a 0.50 s step",
+            "passed": true,
+            "detail": "From (1052, 599) the step north passes through (1052, 559), inside the obstacle. She ended at (1004, 548), outside it and on the floor."
+        },
+        {
+            "name": "Every occluder finds its sprites by name",
+            "passed": true,
+            "detail": "Campfire and plaza tree each resolve at least one sprite under the stage. A failure here means a layer was renamed."
+        },
+        {
+            "name": "Three stable bands",
+            "passed": true,
+            "detail": "Painted orders are below the guardian (-1 to 0); painted + 100 is above her."
+        },
+        {
+            "name": "Baseline rule",
+            "passed": true,
+            "detail": "Feet above a baseline put the occluder in front, feet below put it behind. The plaza tree's baseline is above the top row of the floor (430), so it stays in the painted band wherever she stands."
+        },
+        {
+            "name": "Campfire covers her when she stands behind it",
+            "passed": true,
+            "detail": "Walked to (865, 444), above the baseline at 452: the campfire sprites are at painted + 100."
+        },
+        {
+            "name": "She covers the campfire when she stands before it",
+            "passed": true,
+            "detail": "Walked on to (925, 487), below the baseline: the campfire sprites are back at their painted orders."
+        },
+        {
+            "name": "Feet never left the floor",
+            "passed": true,
+            "detail": "After every frame of every walk above, the feet were inside the floor outline and outside every obstacle."
+        },
+        {
+            "name": "Camera is fixed",
+            "passed": true,
+            "detail": "Position, rotation and size are the same after all the walking, and the camera is not carried by the guardian."
+        },
+        {
+            "name": "Scene left as found",
+            "passed": true,
+            "detail": "The guardian is back on the spawn, and every sprite keeps its image, order and state."
+        },
+        {
+            "name": "Saved scene reloads complete",
+            "passed": true,
+            "detail": "One HubGround, HubStations and HubDepthSort on 'HubWorld traversal', wired to the stage and the guardian. Spawn unchanged."
+        },
+        {
+            "name": "Only the Hub scene changed",
+            "passed": true,
+            "detail": "Assets/Lumon/GuardianReview/Guardian2DPreview.unity, Assets/Lumon/GuardianReview/GuardianReview.unity are byte-identical."
+        }
+    ],
+    "notCovered": [
+        "Keyboard and mouse reading (Input.GetKey, GetKeyDown, GetMouseButtonDown) and the screen-to-plate conversion of a click need Play Mode. The calls they lead to are the ones exercised here.",
+        "The plaza tree stands behind the whole floor, so no walk can put it in front. Its band is checked by rule."
+    ]
+}

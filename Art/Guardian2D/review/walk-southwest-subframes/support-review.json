@@ -1,0 +1,485 @@
+{
+  "method": "Source support annotations projected through the Unity anchor at each frame change",
+  "720": [
+    {
+      "frame": 0,
+      "supportFoot": "left",
+      "projectedFoot": [
+        685.79,
+        361.88
+      ]
+    },
+    {
+      "frame": 1,
+      "supportFoot": "left",
+      "projectedFoot": [
+        687.42,
+        361.25
+      ],
+      "sameSupportStepPx": [
+        1.63,
+        -0.63
+      ]
+    },
+    {
+      "frame": 2,
+      "supportFoot": "left",
+      "projectedFoot": [
+        687.44,
+        361.43
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    },
+    {
+      "frame": 3,
+      "supportFoot": "left",
+      "projectedFoot": [
+        687.08,
+        361.24
+      ],
+      "sameSupportStepPx": [
+        -0.36,
+        -0.19
+      ]
+    },
+    {
+      "frame": 4,
+      "supportFoot": "left",
+      "projectedFoot": [
+        687.1,
+        361.41
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.17
+      ]
+    },
+    {
+      "frame": 5,
+      "supportFoot": "left",
+      "projectedFoot": [
+        687.12,
+        361.59
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    },
+    {
+      "frame": 6,
+      "supportFoot": "left",
+      "projectedFoot": [
+        686.76,
+        361.4
+      ],
+      "sameSupportStepPx": [
+        -0.36,
+        -0.19
+      ]
+    },
+    {
+      "frame": 7,
+      "supportFoot": "left",
+      "projectedFoot": [
+        686.78,
+        361.58
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    },
+    {
+      "frame": 8,
+      "supportFoot": "left",
+      "projectedFoot": [
+        686.79,
+        361.75
+      ],
+      "sameSupportStepPx": [
+        0.01,
+        0.17
+      ]
+    },
+    {
+      "frame": 9,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.9,
+        382.84
+      ]
+    },
+    {
+      "frame": 10,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.91,
+        383.02
+      ],
+      "sameSupportStepPx": [
+        0.01,
+        0.18
+      ]
+    },
+    {
+      "frame": 11,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.93,
+        383.19
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.17
+      ]
+    },
+    {
+      "frame": 12,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.57,
+        383.0
+      ],
+      "sameSupportStepPx": [
+        -0.36,
+        -0.19
+      ]
+    },
+    {
+      "frame": 13,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.59,
+        383.18
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    },
+    {
+      "frame": 14,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.61,
+        383.36
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    },
+    {
+      "frame": 15,
+      "supportFoot": "right",
+      "projectedFoot": [
+        640.25,
+        383.16
+      ],
+      "sameSupportStepPx": [
+        -0.36,
+        -0.2
+      ]
+    },
+    {
+      "frame": 16,
+      "supportFoot": "right",
+      "projectedFoot": [
+        641.88,
+        382.53
+      ],
+      "sameSupportStepPx": [
+        1.63,
+        -0.63
+      ]
+    },
+    {
+      "frame": 17,
+      "supportFoot": "right",
+      "projectedFoot": [
+        641.9,
+        382.71
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.18
+      ]
+    }
+  ],
+  "1080": [
+    {
+      "frame": 0,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1028.69,
+        542.82
+      ]
+    },
+    {
+      "frame": 1,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1031.13,
+        541.88
+      ],
+      "sameSupportStepPx": [
+        2.44,
+        -0.94
+      ]
+    },
+    {
+      "frame": 2,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1031.16,
+        542.15
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.27
+      ]
+    },
+    {
+      "frame": 3,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.62,
+        541.85
+      ],
+      "sameSupportStepPx": [
+        -0.54,
+        -0.3
+      ]
+    },
+    {
+      "frame": 4,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.65,
+        542.12
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.27
+      ]
+    },
+    {
+      "frame": 5,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.68,
+        542.39
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.27
+      ]
+    },
+    {
+      "frame": 6,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.14,
+        542.1
+      ],
+      "sameSupportStepPx": [
+        -0.54,
+        -0.29
+      ]
+    },
+    {
+      "frame": 7,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.17,
+        542.36
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.26
+      ]
+    },
+    {
+      "frame": 8,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1030.19,
+        542.63
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.27
+      ]
+    },
+    {
+      "frame": 9,
+      "supportFoot": "right",
+      "projectedFoot": [
+        961.34,
+        574.26
+      ]
+    },
+    {
+      "frame": 10,
+      "supportFoot": "right",
+      "projectedFoot": [
+        961.37,
+        574.52
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.26
+      ]
+    },
+    {
+      "frame": 11,
+      "supportFoot": "right",
+      "projectedFoot": [
+        961.39,
+        574.79
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.27
+      ]
+    },
+    {
+      "frame": 12,
+      "supportFoot": "right",
+      "projectedFoot": [
+        960.86,
+        574.5
+      ],
+      "sameSupportStepPx": [
+        -0.53,
+        -0.29
+      ]
+    },
+    {
+      "frame": 13,
+      "supportFoot": "right",
+      "projectedFoot": [
+        960.88,
+        574.77
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.27
+      ]
+    },
+    {
+      "frame": 14,
+      "supportFoot": "right",
+      "projectedFoot": [
+        960.91,
+        575.03
+      ],
+      "sameSupportStepPx": [
+        0.03,
+        0.26
+      ]
+    },
+    {
+      "frame": 15,
+      "supportFoot": "right",
+      "projectedFoot": [
+        960.38,
+        574.74
+      ],
+      "sameSupportStepPx": [
+        -0.53,
+        -0.29
+      ]
+    },
+    {
+      "frame": 16,
+      "supportFoot": "right",
+      "projectedFoot": [
+        962.82,
+        573.8
+      ],
+      "sameSupportStepPx": [
+        2.44,
+        -0.94
+      ]
+    },
+    {
+      "frame": 17,
+      "supportFoot": "right",
+      "projectedFoot": [
+        962.84,
+        574.07
+      ],
+      "sameSupportStepPx": [
+        0.02,
+        0.27
+      ]
+    }
+  ],
+  "supportDuringTicks": {
+    "720": [
+      {
+        "foot": "left",
+        "first": [
+          685.79,
+          361.88
+        ],
+        "last": [
+          683.57,
+          363.37
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 2.67,
+        "maxHeldPoseTravelPx": 3.6
+      },
+      {
+        "foot": "right",
+        "first": [
+          640.9,
+          382.84
+        ],
+        "last": [
+          638.67,
+          384.32
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 4.11,
+        "maxHeldPoseTravelPx": 3.6
+      }
+    ],
+    "1080": [
+      {
+        "foot": "left",
+        "first": [
+          1028.69,
+          542.82
+        ],
+        "last": [
+          1025.36,
+          545.05
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 4.01,
+        "maxHeldPoseTravelPx": 5.41
+      },
+      {
+        "foot": "right",
+        "first": [
+          961.34,
+          574.26
+        ],
+        "last": [
+          958.01,
+          576.48
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 6.16,
+        "maxHeldPoseTravelPx": 5.41
+      }
+    ]
+  }
+}

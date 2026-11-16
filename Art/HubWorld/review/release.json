@@ -1,0 +1,92 @@
+{
+  "unity": "6000.3.27f1",
+  "platform": "Windows x64",
+  "executable": "Builds/HubWorld-Win64/Lumon.exe",
+  "entryScene": "Assets/Lumon/HubWorld/HubWorld.unity",
+  "assemblySha256": "52d1c32d0d5c008a63b368df79970bb44bd393f6463ab02713747a5aa9a0835c",
+  "sceneDataSha256": "e468dc22dd44d7eb89c606ff11890871287e2aee6db72f485ce507d447e91e6d",
+  "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "1440x900"
+  ],
+  "verified": [
+    "movement",
+    "fixed camera",
+    "collision",
+    "occlusion",
+    "stations",
+    "PT-BR EN ES",
+    "modal focus and return",
+    "persistent preferences",
+    "audio source playback state",
+    "isolated ambience sources signal",
+    "master mute and restore",
+    "text fit across seven screens in PT-BR, EN and ES at each of 1280x720, 1440x900 and 1920x1080",
+    "full 1280x720 scene reel with source pixel equality at frames 0, 20 and 59",
+    "Aurora Inscrita and projected lettering rendered in localized player captures",
+    "field-book cover typography rendered in three locales",
+    "team cloth and inscription move together",
+    "seven ambient regions in 60 actual player frames",
+    "seven regions fixed under reduced motion",
+    "field-book cover compass region identical across PT-BR, EN and ES at 1280x720",
+    "team selection, fusion confirmation and consumption, upgrades, egg purchases, incubation and hatch",
+    "wallet, incubation, collection, saved team, rank and level persist between processes",
+    "hatch shows the creature before the name, respects reduced motion and returns keyboard focus to the selected tab",
+    "Higgsfield workshop frame, elemental cards, localized controls and shape-matched hatch dimming inspected in the Windows player",
+    "native Windows E key, purchase, incubation, hatch, tab navigation, and keyboard focus restored to Team and the plaza"
+  ],
+  "pending": [
+    "user review of the Higgsfield workshop presentation"
+  ],
+  "audio": {
+    "measurement": "Art/HubWorld/review/player-audio.txt",
+    "recording": "Art/HubWorld/review/player-windows-output.wav",
+    "captureReport": "Art/HubWorld/review/player-windows-output.txt",
+    "recordingSha256": "45088a8da24d20612c2922cec5f9f5611a0f90c56b3f06e40afa5d0db2e932bf",
+    "recordingCandidate": "b4a3eaa1f804a25af814b3e96161f7efe92f9b770cc19b82a80f957cf467bc13"
+  },
+  "design": {
+    "report": "Art/HubWorld/review/design/player-design.txt",
+    "wideReport": "Art/HubWorld/review/design/player-design-wide.txt",
+    "motion": "Art/HubWorld/review/player-motion.json",
+    "reel": "Art/HubWorld/review/player-ambiente.gif",
+    "reelSha256": "983519021a30fe0c3100911528abee27f2309499e1fa16078e90359625607b27",
+    "fullHdReport": "Art/HubWorld/review/design/player-design-1080.txt",
+    "fullSceneReel": "Art/HubWorld/review/player-praca-em-movimento.webp",
+    "fullSceneReelSha256": "4dece99dab6b932438ec8fc3a0e665067d805523bc28795ff471d3dec8fdc5f1",
+    "fullHdSpanishPlaza": "Art/HubWorld/review/player-praca-es-1080.png",
+    "displayFont": "Assets/Lumon/HubWorld/UI/Fonts/AuroraInscrita.ttf",
+    "displayFontSha256": "5b88550889a310728989c326aba81a1969bdc862dc0ffd4e1683c2590e92d106",
+    "bookAndCloth": "Art/HubWorld/review/player-livro-e-equipe.png",
+    "clothReel": "Art/HubWorld/review/player-equipe-tecido.gif",
+    "fieldBookCover": "Art/HubWorld/review/player-capa-vale-da-nascente.png",
+    "fieldBookCoverSha256": "05cb36eb64482096afbf54560463a8fecdc1b5a3809e6cc5ac8a5199361fc6a4"
+  },
+  "visualAcceptance": {
+    "status": "accepted",
+    "date": "2026-11-16",
+    "scope": "HubWorld visual including final field-book cover and team cloth",
+    "buildAssemblySha256": "7d7d720e49b1824f871c16c61e508bf7d7e822238b3d0c6c52ee678db45d6c2b"
+  },
+  "workshop": {
+    "playReport": "Art/HubWorld/review/workshop/workshop-play.txt",
+    "reloadReport": "Art/HubWorld/review/workshop/workshop-reload.txt",
+    "nativeInputReport": "Art/HubWorld/review/player-input.txt",
+    "stationCapture": "Art/HubWorld/review/workshop-station-e.png",
+    "hatchReel": "Art/HubWorld/review/workshop/workshop-reveal.gif",
+    "reducedMotionCapture": "Art/HubWorld/review/workshop/workshop-hatch-reduced.png",
+    "hatchReelSha256": "06b4a8caddb44032e0373dc73f0ef583e2c9f295e44c87cfc992d8d5e463a47f",
+    "formationCapture": "Art/HubWorld/review/design/design-pt-team.png",
+    "hatchCapture": "Art/HubWorld/review/workshop/workshop-hatch.png",
+    "nativeInputReportScope": "Current Windows candidate with real Windows keyboard and pointer events.",
+    "higgsfieldJobs": {
+      "frame": "ec5c1829-f69f-4c0f-bd7e-253b5bd2a825",
+      "cardsAndKeys": "dee50037-6fb0-427a-a002-c4e0737d5fb6"
+    },
+    "nativeHatchCapture": "Art/HubWorld/review/workshop-hatch-input.png",
+    "nativeFocusCapture": "Art/HubWorld/review/workshop-team-focus-input.png"
+  },
+  "sharedAssetIndexSha256": "d8b648e584ec154fd5dfbe9a95a7558e64f68a8fe3774026bc8b880ec299aa01",
+  "sharedAssetDataSha256": "b0ca883fba72b0e2bb6571ff09ce7893098f65f004063a815d81673ede7d2ab4"
+}

@@ -1,0 +1,197 @@
+{
+  "method": "Source support annotations projected through the Unity anchor at each frame change",
+  "720": [
+    {
+      "frame": 0,
+      "supportFoot": "left",
+      "projectedFoot": [
+        690.65,
+        359.64
+      ]
+    },
+    {
+      "frame": 1,
+      "supportFoot": "left",
+      "projectedFoot": [
+        691.94,
+        359.0
+      ],
+      "sameSupportStepPx": [
+        1.29,
+        -0.64
+      ]
+    },
+    {
+      "frame": 2,
+      "supportFoot": "left",
+      "projectedFoot": [
+        691.61,
+        359.16
+      ],
+      "sameSupportStepPx": [
+        -0.33,
+        0.16
+      ]
+    },
+    {
+      "frame": 3,
+      "supportFoot": "right",
+      "projectedFoot": [
+        645.75,
+        380.6
+      ]
+    },
+    {
+      "frame": 4,
+      "supportFoot": "right",
+      "projectedFoot": [
+        645.43,
+        380.76
+      ],
+      "sameSupportStepPx": [
+        -0.32,
+        0.16
+      ]
+    },
+    {
+      "frame": 5,
+      "supportFoot": "right",
+      "projectedFoot": [
+        645.1,
+        380.92
+      ],
+      "sameSupportStepPx": [
+        -0.33,
+        0.16
+      ]
+    }
+  ],
+  "1080": [
+    {
+      "frame": 0,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1035.97,
+        539.46
+      ]
+    },
+    {
+      "frame": 1,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1037.9,
+        538.5
+      ],
+      "sameSupportStepPx": [
+        1.93,
+        -0.96
+      ]
+    },
+    {
+      "frame": 2,
+      "supportFoot": "left",
+      "projectedFoot": [
+        1037.42,
+        538.74
+      ],
+      "sameSupportStepPx": [
+        -0.48,
+        0.24
+      ]
+    },
+    {
+      "frame": 3,
+      "supportFoot": "right",
+      "projectedFoot": [
+        968.62,
+        570.9
+      ]
+    },
+    {
+      "frame": 4,
+      "supportFoot": "right",
+      "projectedFoot": [
+        968.14,
+        571.14
+      ],
+      "sameSupportStepPx": [
+        -0.48,
+        0.24
+      ]
+    },
+    {
+      "frame": 5,
+      "supportFoot": "right",
+      "projectedFoot": [
+        967.65,
+        571.38
+      ],
+      "sameSupportStepPx": [
+        -0.49,
+        0.24
+      ]
+    }
+  ],
+  "supportDuringTicks": {
+    "720": [
+      {
+        "foot": "left",
+        "first": [
+          690.65,
+          359.64
+        ],
+        "last": [
+          678.72,
+          365.61
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 13.34,
+        "maxHeldPoseTravelPx": 14.42
+      },
+      {
+        "foot": "right",
+        "first": [
+          645.75,
+          380.6
+        ],
+        "last": [
+          633.82,
+          386.56
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 14.78,
+        "maxHeldPoseTravelPx": 14.42
+      }
+    ],
+    "1080": [
+      {
+        "foot": "left",
+        "first": [
+          1035.97,
+          539.46
+        ],
+        "last": [
+          1018.08,
+          548.41
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 20.01,
+        "maxHeldPoseTravelPx": 21.63
+      },
+      {
+        "foot": "right",
+        "first": [
+          968.62,
+          570.9
+        ],
+        "last": [
+          950.73,
+          579.84
+        ],
+        "samples": 26,
+        "maxFromFirstPx": 22.17,
+        "maxHeldPoseTravelPx": 21.63
+      }
+    ]
+  }
+}

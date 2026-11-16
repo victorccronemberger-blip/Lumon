@@ -1,0 +1,52 @@
+{
+  "poses": [
+    {
+      "direction": "North",
+      "pivotX": 0.49789915966386555,
+      "pivotY": 0.015671641791044775,
+      "opaqueHeight": 653
+    },
+    {
+      "direction": "NorthEast",
+      "pivotX": 0.48828125,
+      "pivotY": 0.02180232558139535,
+      "opaqueHeight": 329
+    },
+    {
+      "direction": "East",
+      "pivotX": 0.6358381502890174,
+      "pivotY": 0.015671641791044775,
+      "opaqueHeight": 650
+    },
+    {
+      "direction": "SouthEast",
+      "pivotX": 0.5,
+      "pivotY": 0.01048951048951049,
+      "opaqueHeight": 981
+    },
+    {
+      "direction": "South",
+      "pivotX": 0.5020746887966805,
+      "pivotY": 0.015625,
+      "opaqueHeight": 655
+    },
+    {
+      "direction": "SouthWest",
+      "pivotX": 0.44637223974763407,
+      "pivotY": 0.0105,
+      "opaqueHeight": 980
+    },
+    {
+      "direction": "West",
+      "pivotX": 0.3628571428571429,
+      "pivotY": 0.015671641791044775,
+      "opaqueHeight": 650
+    },
+    {
+      "direction": "NorthWest",
+      "pivotX": 0.5116279069767442,
+      "pivotY": 0.02180232558139535,
+      "opaqueHeight": 330
+    }
+  ]
+}

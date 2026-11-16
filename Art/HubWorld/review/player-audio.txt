@@ -1,0 +1,1 @@
+PASS: Windows player RMS. Mix 0.0250835, wind and birds 0.0181671, campfire 0.0142867, muted 0.0000000, restored 0.0231093. Output sample rate: 48000.
