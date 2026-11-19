@@ -1,5 +1,19 @@
 # Guardiã do Observatório · direção de arte 2D
 
+## Cartógrafa jogável do Amanhecer
+
+A guardiã usa a mesma linguagem pintada da ferreira e do pangolim. O rosto fica emoldurado pelo coque escuro e pelo lenço ameixa. A capa curta azul-petróleo carrega o bordado celeste, e o forro ocre separa a silhueta do casaco das calças. Na sala LAN, o tecido da capa recebe a cor do jogador. As costuras de latão, a pele e a bolsa mantêm suas cores.
+
+A [folha PNG editável usada no jogo](../Assets/Resources/Lumon/GuardianPainted.png) mede 3136 × 3976 px. Os quadros de 196 × 284 px formam dois blocos de oito colunas e catorze linhas. Cada bloco usa os rumos S, SE, L, NE, N, NO, O e SO. Leia primeiro as linhas do bloco esquerdo, depois as do direito. A pose 0 é repouso, 1–20 formam o ciclo e 21–26 recolhem a passada sobre cada um dos dois pés. A última linha do bloco direito é reservada.
+
+A animação parte de peças pintadas separadas para o traje, os braços e as pernas. A pintura do rosto permanece a mesma em todo o ciclo de uma direção. O joelho dobra entre o quadril e o tornozelo, o pé livre passa perto do chão e os braços acompanham a perna oposta. A bota de apoio recua no desenho pela distância que a personagem avança no mundo. O renderizador corrige o deslocamento dos pés entre dois quadros. A referência de projeção da arte é a câmera de jogo a 32°.
+
+A caminhada atinge 1,50 m/s e percorre 1,38 m por ciclo completo. A aceleração inicial e a frenagem usam o mesmo cálculo no modo solo e no anfitrião LAN. Com movimento reduzido, a guardiã mantém a pose de repouso na direção em que caminha.
+
+O Unity reimporta a folha quando ela é editada. Para reconstruir o relevo PLY a partir do PNG, execute `python Art/Gaussian/painted-guardian.py` com Pillow. Para recompor a animação a partir das peças em `Art/Concepts/Observatorio`, execute o mesmo script com `--export-from-concepts <destino.png>` e com NumPy e OpenCV instalados. O método Unity `Lumon.HubWorld.Editor.HubSplatBuilder.Build` compila a cena instalada para Windows.
+
+## Estudo anterior de proporções e paleta
+
 A Guardiã é uma ilustração 2D pintada em camadas de cor, com aparência de aprendiz de 16 a 18 anos, rosto mais curto, mandíbula suave, olhos expressivos, cabelo escuro preso, casaco azul-petróleo, capa ameixa e gola de linho. O fecho de latão e cristal turquesa identifica o traje na praça. O rosto recebe os detalhes mais finos. As dobras e costuras da roupa devem funcionar como massas quando a personagem ocupa cerca de 165 px na tela.
 
 ## Prova no Unity

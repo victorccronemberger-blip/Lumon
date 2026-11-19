@@ -1,0 +1,11 @@
+{
+  "name": "lumon-design",
+  "version": "1.0.0",
+  "description": "Direção de arte e revisão visual da praça jogável do Observatório Lumon.",
+  "author": { "name": "Equipe Lumon" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lumon · Direção de arte",
+    "shortDescription": "Modele e revise o Observatório a partir da forja e de capturas jogáveis."
+  }
+}

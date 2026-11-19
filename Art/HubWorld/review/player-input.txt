@@ -1,1 +1,0 @@
-PASS: Windows movement, settings, atlas, E at the team stall, egg purchase and hatch, tab navigation, and focus return.

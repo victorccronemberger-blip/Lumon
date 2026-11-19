@@ -1,0 +1,540 @@
+{
+  "version": 2,
+  "seed": 84721,
+  "palette": [
+    "#292344",
+    "#393358",
+    "#514873",
+    "#77718f",
+    "#b7abc4",
+    "#e1cba6",
+    "#262c39",
+    "#673447",
+    "#9b4d52",
+    "#d47b4e",
+    "#176862",
+    "#289b68",
+    "#65c96d",
+    "#c0eb72",
+    "#61ead4",
+    "#ffca55",
+    "#ff8056",
+    "#ed5d91",
+    "#62a9e8",
+    "#bb8bdd"
+  ],
+  "background": "#dfbca1",
+  "spawn": [
+    3.6,
+    0.08,
+    1.42
+  ],
+  "stations": [
+    {
+      "id": "Team",
+      "label": "EQUIPE",
+      "position": [
+        -5.55,
+        0,
+        -2.4
+      ],
+      "approach": [
+        -5.15,
+        0,
+        -1.05
+      ],
+      "radius": 0.78,
+      "obstacle": 0.82
+    },
+    {
+      "id": "Nest",
+      "label": "NINHO",
+      "position": [
+        -1.15,
+        0,
+        -6.05
+      ],
+      "approach": [
+        -1.15,
+        0,
+        -4.7
+      ],
+      "radius": 0.72,
+      "obstacle": 0.72
+    },
+    {
+      "id": "EggShop",
+      "label": "OVOS",
+      "position": [
+        -5.85,
+        0,
+        2.65
+      ],
+      "approach": [
+        -4.45,
+        0,
+        2.6
+      ],
+      "radius": 0.8,
+      "obstacle": 0.86
+    },
+    {
+      "id": "Fusion",
+      "label": "FUSÃO",
+      "position": [
+        4.6,
+        0,
+        -4.85
+      ],
+      "approach": [
+        3.2,
+        0,
+        -4.6
+      ],
+      "radius": 0.82,
+      "obstacle": 0.85
+    },
+    {
+      "id": "Improve",
+      "label": "APRIMORAR",
+      "position": [
+        5.95,
+        0,
+        1.85
+      ],
+      "approach": [
+        4.55,
+        0,
+        1.65
+      ],
+      "radius": 0.78,
+      "obstacle": 0.8
+    },
+    {
+      "id": "Expeditions",
+      "label": "EXPEDIÇÕES",
+      "position": [
+        0.7,
+        0,
+        6.45
+      ],
+      "approach": [
+        0.7,
+        0,
+        5.05
+      ],
+      "radius": 0.78,
+      "obstacle": 0.76
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "crescent-pavilion",
+      "position": [
+        2.7,
+        0,
+        6.55
+      ],
+      "radius": 1.17
+    },
+    {
+      "id": "coral-tree-0",
+      "position": [
+        -4.95,
+        0,
+        0.22
+      ],
+      "radius": 0.33
+    },
+    {
+      "id": "coral-tree-1",
+      "position": [
+        4.85,
+        0,
+        4.65
+      ],
+      "radius": 0.33
+    },
+    {
+      "id": "coral-tree-2",
+      "position": [
+        -2.95,
+        0,
+        -6.9
+      ],
+      "radius": 0.33
+    },
+    {
+      "id": "armillary",
+      "position": [
+        0.55,
+        0,
+        -0.55
+      ],
+      "radius": 0.79
+    },
+    {
+      "id": "pine-0",
+      "position": [
+        -6.75,
+        0,
+        -3.55
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-1",
+      "position": [
+        -7.22,
+        0,
+        -3.05
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-2",
+      "position": [
+        6.88,
+        0,
+        2.91
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-3",
+      "position": [
+        7.03,
+        0,
+        2.44
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-4",
+      "position": [
+        -5.1,
+        0,
+        5.68
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-5",
+      "position": [
+        -5.82,
+        0,
+        5.23
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-6",
+      "position": [
+        -4.49,
+        0,
+        6.25
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-7",
+      "position": [
+        2.64,
+        0,
+        -6.95
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-8",
+      "position": [
+        3.18,
+        0,
+        -7.16
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-9",
+      "position": [
+        5.1,
+        0,
+        5.88
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-10",
+      "position": [
+        5.68,
+        0,
+        5.42
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "pine-11",
+      "position": [
+        -7.65,
+        0,
+        0.46
+      ],
+      "radius": 0.24
+    },
+    {
+      "id": "telescope-0",
+      "position": [
+        -4.95,
+        0,
+        -5.3
+      ],
+      "radius": 0.66
+    },
+    {
+      "id": "telescope-1",
+      "position": [
+        6.9,
+        0,
+        -3.05
+      ],
+      "radius": 0.66
+    },
+    {
+      "id": "bench-west",
+      "position": [
+        -7.35,
+        0,
+        -1.2
+      ],
+      "axis": [
+        0.16113189890215207,
+        0,
+        -0.9869328807756821
+      ],
+      "halfSpan": 0.45,
+      "radius": 0.29
+    },
+    {
+      "id": "bench-north",
+      "position": [
+        -3.3,
+        0,
+        -6.8
+      ],
+      "axis": [
+        0.8996566628303095,
+        0,
+        -0.4365980863735326
+      ],
+      "halfSpan": 0.45,
+      "radius": 0.29
+    },
+    {
+      "id": "bench-east",
+      "position": [
+        7.4,
+        0,
+        -1.3
+      ],
+      "axis": [
+        0.17302600448638003,
+        0,
+        0.9849172563070865
+      ],
+      "halfSpan": 0.45,
+      "radius": 0.29
+    },
+    {
+      "id": "bench-southeast",
+      "position": [
+        3.25,
+        0,
+        6.7
+      ],
+      "axis": [
+        -0.8997342178022792,
+        0,
+        0.4364382399787177
+      ],
+      "halfSpan": 0.45,
+      "radius": 0.29
+    },
+    {
+      "id": "survey-north",
+      "position": [
+        1.55,
+        0,
+        -7.8
+      ],
+      "axis": [
+        0.9808217502117403,
+        0,
+        0.19490688626002534
+      ],
+      "halfSpan": 0,
+      "radius": 0.29
+    },
+    {
+      "id": "survey-south",
+      "position": [
+        -3.5,
+        0,
+        6.9
+      ],
+      "axis": [
+        -0.8918272423909418,
+        0,
+        -0.45237613744468047
+      ],
+      "halfSpan": 0,
+      "radius": 0.29
+    },
+    {
+      "id": "lantern-1",
+      "position": [
+        -2.45,
+        0,
+        -0.03
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-2",
+      "position": [
+        2.65,
+        0,
+        0.25
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-3",
+      "position": [
+        -6.35,
+        0,
+        1.15
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-4",
+      "position": [
+        1.65,
+        0,
+        4.85
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-5",
+      "position": [
+        -0.03,
+        0,
+        -4.9
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-6",
+      "position": [
+        -4.75,
+        0,
+        -3.5
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-7",
+      "position": [
+        3.55,
+        0,
+        -5.75
+      ],
+      "radius": 0.195
+    },
+    {
+      "id": "lantern-8",
+      "position": [
+        -3,
+        0,
+        3.8
+      ],
+      "radius": 0.195
+    }
+  ],
+  "armillary": {
+    "pivot": [
+      0.55,
+      1.55,
+      -0.55
+    ],
+    "middleAxis": [
+      -0.35903842814940934,
+      -0.9301662040578261,
+      0.07669576220793421
+    ],
+    "horizonAxis": [
+      -0.6998310485696263,
+      0.050067889471609124,
+      -0.7125515489435107
+    ],
+    "middleSweep": 37,
+    "horizonSweep": 24,
+    "period": 18
+  },
+  "forgeFire": {
+    "origin": [
+      5.907972356307745,
+      0,
+      1.973019011399364
+    ],
+    "yaw": -108.86198107485642,
+    "period": 4.8,
+    "tongues": [
+      {
+        "id": "core",
+        "position": [
+          0.001,
+          0.633,
+          0.112
+        ],
+        "phase": 0.38,
+        "frequency": 2
+      },
+      {
+        "id": "left",
+        "position": [
+          -0.1,
+          0.631,
+          0.108
+        ],
+        "phase": 2.39,
+        "frequency": 3
+      },
+      {
+        "id": "right",
+        "position": [
+          0.1,
+          0.633,
+          0.094
+        ],
+        "phase": 4.47,
+        "frequency": 2
+      }
+    ]
+  },
+  "worldRadius": 9,
+  "pixelSize": 1,
+  "camera": {
+    "yaw": 32,
+    "pitch": 32,
+    "distance": 14,
+    "orthographicSize": 8.8,
+    "target": [
+      0,
+      0.23,
+      0
+    ]
+  },
+  "paintedStations": true
+}

@@ -19,8 +19,11 @@ namespace Lumon.HubWorld
         public float MasterVolume { get; set; } = DefaultMasterVolume;
         public bool ReducedMotion { get; set; }
 
-        public static HubPreferences Load(string keyPrefix = DefaultKeyPrefix)
+        public static string ActiveKeyPrefix { get; set; } = DefaultKeyPrefix;
+
+        public static HubPreferences Load(string keyPrefix = null)
         {
+            keyPrefix ??= ActiveKeyPrefix;
             var prefs = new HubPreferences
             {
                 Language = PlayerPrefs.GetString(Key(keyPrefix, "Language"), DefaultLanguage),
@@ -33,8 +36,9 @@ namespace Lumon.HubWorld
             return prefs;
         }
 
-        public void Save(string keyPrefix = DefaultKeyPrefix)
+        public void Save(string keyPrefix = null)
         {
+            keyPrefix ??= ActiveKeyPrefix;
             Sanitize();
             PlayerPrefs.SetString(Key(keyPrefix, "Language"), Language);
             PlayerPrefs.SetInt(Key(keyPrefix, "TeamMask"), TeamMask);

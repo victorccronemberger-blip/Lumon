@@ -30,7 +30,8 @@ namespace Lumon.HubWorld
     public sealed class HubEgg
     {
         public int Id;
-        public int Element;
+        public int Element; // Sorteado na compra, mas oculto até o nascimento.
+        public int Tier;    // 0 = Comum (grau 1); 1 = Raro (grau 2)
         public long ReadyAtTicks; // 0 = fora da incubadora; > 0 = ticks UTC em que pode chocar
     }
 
@@ -43,6 +44,7 @@ namespace Lumon.HubWorld
     {
         public const int StartingCoins = 150;
         public const int EggCost = 25;
+        public const int RareEggCost = 75;
         public const int ImproveCost = 30;
         public const int FusionCost = 35;
         public const int IncubationSeconds = 18;
@@ -122,17 +124,24 @@ namespace Lumon.HubWorld
             return Commit(() => data.Team = next);
         }
 
-        public HubWorkshopResult BuyEgg(int element)
+        public HubWorkshopResult BuyEgg(int tier)
         {
-            if (element < 0 || element >= ElementCount) return HubWorkshopResult.InvalidSelection;
+            if (tier < 0 || tier > 1) return HubWorkshopResult.InvalidSelection;
             if (data.Eggs.Count >= MaxEggs) return HubWorkshopResult.CapacityReached;
             if (data.NextId == int.MaxValue) return HubWorkshopResult.CapacityReached;
-            if (data.Coins < EggCost) return HubWorkshopResult.InsufficientCoins;
+            int cost = tier == 1 ? RareEggCost : EggCost;
+            if (data.Coins < cost) return HubWorkshopResult.InsufficientCoins;
 
             return Commit(() =>
             {
-                data.Coins -= EggCost;
-                data.Eggs.Add(new HubEgg { Id = data.NextId++, Element = element, ReadyAtTicks = 0 });
+                data.Coins -= cost;
+                data.Eggs.Add(new HubEgg
+                {
+                    Id = data.NextId++,
+                    Element = UnityEngine.Random.Range(0, ElementCount),
+                    Tier = tier,
+                    ReadyAtTicks = 0
+                });
             });
         }
 
@@ -157,7 +166,13 @@ namespace Lumon.HubWorld
             return Commit(() =>
             {
                 data.Eggs.Remove(egg);
-                data.Creatures.Add(new HubCreature { Id = data.NextId++, Element = egg.Element, Level = 1, Rank = 1 });
+                data.Creatures.Add(new HubCreature
+                {
+                    Id = data.NextId++,
+                    Element = egg.Element,
+                    Level = 1,
+                    Rank = egg.Tier == 1 ? 2 : 1
+                });
             });
         }
 
@@ -272,7 +287,7 @@ namespace Lumon.HubWorld
             foreach (HubEgg e in d.Eggs)
             {
                 if (e == null || e.Id < 1 || !ids.Add(e.Id)) return false;
-                if (e.Element < 0 || e.Element >= ElementCount || e.ReadyAtTicks < 0 || e.ReadyAtTicks > DateTime.MaxValue.Ticks) return false;
+                if (e.Element < 0 || e.Element >= ElementCount || e.Tier < 0 || e.Tier > 1 || e.ReadyAtTicks < 0 || e.ReadyAtTicks > DateTime.MaxValue.Ticks) return false;
                 if (e.ReadyAtTicks > 0 && ++incubating > 1) return false;
             }
 

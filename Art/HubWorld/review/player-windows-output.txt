@@ -1,1 +1,0 @@
-PASS: process-only Windows WASAPI capture. 10.00s, 44100Hz, 2 channels. Spawn RMS 0.018256, approach RMS 0.018069, maximum peak 0.086639.

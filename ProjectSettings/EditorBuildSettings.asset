@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lumon/HubWorld/HubWorld.unity
+    guid: 5aefd86657d97ff478ba016a8481b6b7
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

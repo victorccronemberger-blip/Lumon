@@ -1,19 +1,30 @@
-# Lumon
+# Lumon · Observatório do Amanhecer
 
-Projeto Unity 6000.3.27f1.
+Hub cooperativo para até seis jogadores, em Unity **6000.3.28f1**. A praça usa construções giráveis em Gaussian splats, cenário ilustrado e uma folha de animação direcional para a guardiã.
 
-## Abrir o projeto
+![Pavilhão e torre antes e depois do acabamento](QA/Arquitetura-do-Observatorio/pavilhao-e-torre.jpg)
 
-1. Clone o repositório com `git clone https://github.com/victorccronemberger-blip/Lumon.git`.
-2. No Unity Hub, instale o Unity Editor **6000.3.27f1** e adicione a pasta clonada como projeto existente. Aguarde a importação inicial.
-3. No Editor, escolha **Lumon → Open HubWorld** e entre em Play Mode. Use WASD ou as setas para andar, **E** para abrir a barraca da Equipe e **F** nas outras estações.
+## Abrir e jogar
 
-O código e os assets de jogo ficam em `Assets/`. As pranchas de arte, scripts de preparação e capturas ficam em `Art/`. Para compilar a versão Windows x64, execute `Lumon.HubWorld.Editor.HubReleaseBuilder.InstallAndBuild` no Editor em modo batch. A saída fica em `Builds/HubWorld-Win64/`. Veja o [guia do HubWorld](Docs/HubWorld.md) para a sequência de verificação.
+1. Clone o repositório e adicione a pasta ao Unity Hub com a versão indicada em [ProjectVersion.txt](ProjectSettings/ProjectVersion.txt).
+2. Abra [HubWorld.unity](Assets/Lumon/HubWorld/HubWorld.unity) e entre em Play Mode. Os assets jogáveis acompanham o clone.
+3. Use WASD ou as setas para andar, Q/R para girar a câmera, V para a vista geral e E junto a uma estação. F aproxima a câmera da forja. O botão Grupo abre a sala LAN.
 
-A cena do [HubWorld do Observatório](Docs/HubWorld.md) está disponível em **Lumon → Open HubWorld**. O guia reúne as camadas animadas e os testes que faltam para fechar a praça.
+## Trabalhar com a mesma direção de arte
 
-A direção atual da Guardiã é [arte 2D pintada](Docs/Guardiao2D.md). Abra **Lumon → Open 2D Guardian Review** para revisar o sprite na praça ilustrada. Em Play Mode, WASD e setas movem a Guardiã e trocam sua orientação entre oito poses sob a câmera fixa.
+A [skill de design do Lumon](Plugins/lumon-design/skills/lumon-design/SKILL.md) reúne a referência aprovada da forja, a paleta por material, o atlas da guardiã, as fontes de autoria e o teste visual. Humanos e assistentes podem abrir o Markdown diretamente. A [pasta do plugin](Plugins/lumon-design) também contém os manifestos de Codex e Kimi para a mesma skill. O [AGENTS.md](AGENTS.md) aponta os assistentes de código para essa referência.
 
-O [fechamento de R0 e R1](Docs/UX-Crawler-Package/R0-R1-Fechamento.md) acompanha os gates da candidata. A [prova de volume anterior](Docs/Guardiao.md) registra o estudo 3D.
+Para começar uma tarefa de arte, por exemplo, peça **“Use a skill lumon-design para modelar um arquivo de cartas ao lado do pavilhão. Compare a fachada na câmera da praça antes e depois.”** Os [comparativos das estações](QA/Arquitetura-do-Observatorio/estacoes-antes-e-agora.jpg) mostram o nível de detalhe na distância de jogo.
 
-O [protocolo de entrega](Docs/Protocolo-de-Entrega.md) define as responsabilidades de Codex, Higgsfield e Claude Code e a evidência necessária para fechar cada tarefa.
+## Compilar e conferir a versão Windows
+
+Execute na raiz do clone, com o componente Windows Build Support instalado. Ajuste o caminho do Editor para a sua instalação.
+
+```powershell
+$editor = "C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Unity.exe"
+& $editor -batchmode -nographics -quit -buildTarget Win64 -projectPath "$PWD" -executeMethod Lumon.HubWorld.Editor.HubSplatBuilder.Build -logFile "$PWD/build-lumon.log" | Out-Host
+if ($LASTEXITCODE -ne 0) { throw "A compilação falhou. Consulte build-lumon.log." }
+python Plugins/lumon-design/skills/lumon-design/scripts/capturar.py
+```
+
+O executável fica em `Builds/HubWorld-Win64/Lumon.exe`. O teste grava as capturas numa nova pasta de `Builds/Revisoes` e confere as oito interações. Os scripts em [Art/Gaussian](Art/Gaussian) recompõem os assets editáveis. Consulte as [notas de arquitetura](Docs/HubWorld-Design.md#acabamento-das-construções) e o [guia da guardiã](Docs/Guardiao2D.md#cartógrafa-jogável-do-amanhecer) para as decisões específicas. Os estudos anteriores continuam registrados em [Docs](Docs).

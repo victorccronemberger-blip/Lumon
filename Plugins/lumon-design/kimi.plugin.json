@@ -1,0 +1,11 @@
+{
+  "name": "lumon-design",
+  "version": "1.0.0",
+  "author": "Equipe Lumon",
+  "description": "Direção de arte 2,5D do Observatório Lumon, com referência de materiais e revisão na câmera do jogo.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lumon · Direção de arte",
+    "shortDescription": "Modele e revise construções, personagens e estações do Observatório."
+  }
+}

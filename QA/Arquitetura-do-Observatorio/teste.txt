@@ -1,0 +1,101 @@
+wait 2
+shot praca
+yaw 115
+shot arcadas
+yaw 32
+walk-to .7 5.05
+wait .45
+yaw 348
+wait .20
+shot carta-348
+yaw 32
+wait .20
+shot carta-32
+yaw 65
+wait .20
+shot carta-65
+yaw 115
+wait .20
+shot carta-115
+key e
+key esc
+walk-to 4.55 1.65
+key f
+key f
+key e
+key esc
+walk-to 5.94 -2.625
+key e
+key esc
+walk-to 4.208 -3.642
+walk-to 3.2 -4.6
+wait .45
+yaw 66
+wait .20
+shot fusao-66
+yaw 90
+wait .20
+shot fusao-90
+yaw 155
+wait .20
+shot fusao-155
+yaw 245
+wait .20
+shot fusao-245
+key e
+key esc
+walk-to .160 -4.315
+walk-to -1.15 -4.7
+wait .45
+yaw 140
+wait .20
+shot ninho-140
+yaw 207
+wait .20
+shot ninho-207
+yaw 235
+wait .20
+shot ninho-235
+yaw 290
+wait .20
+shot ninho-290
+key e
+key esc
+walk-to -4.233 -4.533
+key e
+key esc
+walk-to -4.310 -2.400
+walk-to -5.15 -1.05
+yaw 205
+wait .45
+yaw 150
+wait .20
+shot sede-150
+yaw 205
+wait .20
+shot sede-205
+yaw 235
+wait .20
+shot sede-235
+yaw 305
+wait .20
+shot sede-305
+key e
+key esc
+walk-to -4.45 2.6
+yaw 265
+wait .45
+yaw 220
+wait .20
+shot mercado-220
+yaw 250
+wait .20
+shot mercado-250
+yaw 305
+wait .20
+shot mercado-305
+yaw 125
+wait .20
+shot mercado-125
+key e
+key esc
